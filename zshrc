@@ -31,4 +31,5 @@ function lsf(){
 	ls "$@" | grep "$@"
 }
 
+
 # USE ZSH Functions
