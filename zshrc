@@ -27,8 +27,7 @@ function mkcd(){
 	mkdir -p "$@" &&cd "$_"
 }
 function lsf(){
-	#TODO: Fix properties
-	ls "$@" | grep "$@"
+	ls "$1" | grep "$2"
 }
 
 
