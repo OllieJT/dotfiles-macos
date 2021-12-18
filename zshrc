@@ -3,12 +3,13 @@ echo "Loaded .zshrc"
 # Set Variables
 ## Bat syntax highlighting for manpages
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change zshrc
 
 # Create Aliases
 alias ls="ls -lAFh"
+alias update-brewfile="cd ~/.dotfiles && brew bundle dump --force --describe && echo 'Brewfile updated ✅'"
 
 # Customize PS1 Prompt(s)
 PROMPT="
