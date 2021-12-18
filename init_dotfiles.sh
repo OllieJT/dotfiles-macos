@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # Colors as per: http://www.tldp.org/LDP/abs/html/colorizing.html
 
@@ -44,7 +44,7 @@ echoerrnocolor() {
 	fi
 }
 
-echoerr() { 
+echoerr() {
 	if [ $# -gt 1 ]; then
 		color=$1
 		shift

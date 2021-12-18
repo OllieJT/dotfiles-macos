@@ -10,3 +10,7 @@
       ~/.config/git:
           create: true
           path: config/git
+- shell:
+      - command: ./setup_homebrew.zsh
+        stdout: true
+        srderr: true
