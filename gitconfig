@@ -1,0 +1,34 @@
+[user]
+	name = Ollie Taylor
+	email = 13766232+OllieJT@users.noreply.github.com
+[hub]
+	protocol = ssh
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	ignorecase = false
+	excludesfile = ~/.gitignore
+	editor = code --wait
+[mergetool "gitblade"]
+	cmd = \"/usr/lib/gitblade/gitblade\" -c \"\"
+	trustExitCode = true
+	prompt = true
+[mergetool]
+	trustExitCode = true
+	prompt = true
+[difftool]
+	prompt = false
+[credential]
+	helper = cache --timeout=3600
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+[help]
+	autocorrect = 1
+[init]
+	templateDir = ~/.config/git/template/
