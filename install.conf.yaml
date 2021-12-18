@@ -1,10 +1,11 @@
 - clean: ["~"]
 
 - link:
-    ~/.gitconfig: gitconfig
     ~/.zshrc: zshrc
-
-
+      ~/.gitconfig:
       ~/.config/gh:
           create: true
           path: config/gh
+      ~/.config/git:
+          create: true
+          path: config/git
