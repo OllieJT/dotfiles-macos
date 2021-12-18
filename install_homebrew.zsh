@@ -1,6 +1,5 @@
 #!/usr/bin/env zsh
 
-
 echo "\n [Homebrew Setuip]: STARTING 🚧\n"
 
 if exists brew; then

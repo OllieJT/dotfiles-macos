@@ -1,5 +1,10 @@
 - clean: ["~"]
-
+- defaults:
+      shell:
+          stdout: true
+          stderr: true
+      link:
+          create: true
 - link:
       ~/.gitconfig:
       ~/.zshrc:
@@ -10,9 +15,3 @@
       ~/.config/bat: config/bat
 - shell:
       - command: ./install_homebrew.zsh
-- defaults:
-      shell:
-          stdout: true
-          stderr: true
-      link:
-          create: true
