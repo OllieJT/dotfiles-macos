@@ -8,7 +8,8 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 # Change zshrc
 
 # Create Aliases
-alias ls="ls -lAFh"
+# alias ls="ls -lAFh"
+alias ls="exa -laFh --git"
 alias update-brewfile="cd ~/.dotfiles && brew bundle dump --force --describe && echo 'Brewfile updated ✅'"
 
 # Customize PS1 Prompt(s)

@@ -8,6 +8,7 @@ tap "homebrew/core"
 # Brews (Packages)
 brew "bat"
 brew "httpie"
+brew "exa"
 brew "gh"
 
 # Casks (Applications)
