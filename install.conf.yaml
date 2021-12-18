@@ -3,12 +3,13 @@
 - link:
       ~/.gitconfig:
       ~/.zshrc:
+      ~/.zshenv:
       ~/.zprofile:
       ~/.config/gh: config/gh
       ~/.config/git: config/git
       ~/.config/bat: config/bat
 - shell:
-      - command: ./setup_homebrew.zsh
+      - command: ./install_homebrew.zsh
 - defaults:
       shell:
           stdout: true
