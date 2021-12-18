@@ -11,6 +11,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 # alias ls="ls -lAFh"
 alias ls="exa -laFh --git"
 alias update-brewfile="cd ~/.dotfiles && brew bundle dump --force --describe && echo 'Brewfile updated ✅'"
+alias trail="<<<${(F)path}"
 
 # Customize PS1 Prompt(s)
 PROMPT="
