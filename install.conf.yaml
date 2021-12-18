@@ -4,13 +4,14 @@
       ~/.gitconfig:
       ~/.zshrc:
       ~/.zprofile:
-      ~/.config/gh:
-          create: true
-          path: config/gh
-      ~/.config/git:
-          create: true
-          path: config/git
+      ~/.config/gh: config/gh
+      ~/.config/git: config/git
+      ~/.config/bat: config/bat
 - shell:
       - command: ./setup_homebrew.zsh
-        stdout: true
-        srderr: true
+- defaults:
+      shell:
+          stdout: true
+          stderr: true
+      link:
+          create: true
