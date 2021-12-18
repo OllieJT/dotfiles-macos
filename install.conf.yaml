@@ -1,8 +1,9 @@
 - clean: ["~"]
 
 - link:
-    ~/.zshrc: zshrc
       ~/.gitconfig:
+      ~/.zshrc:
+      ~/.zprofile:
       ~/.config/gh:
           create: true
           path: config/gh
