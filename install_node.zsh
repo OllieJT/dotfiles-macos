@@ -36,6 +36,8 @@ npm install --global  vercel
 echo "\n  [Node Setup]: 🟢 Global packages installed\n"
 npm list --global --depth=0
 
+mkdir ~/Developer -p
+
 echo "\n  [Node Setup]: ✅ COMPLETE\n"
 
 $(yarn global bin)
