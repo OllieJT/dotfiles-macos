@@ -15,3 +15,4 @@
       ~/.config/bat: config/bat
 - shell:
       - command: ./install_homebrew.zsh
+      - command: ./install_zsh.zsh
