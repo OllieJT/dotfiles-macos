@@ -40,6 +40,7 @@ cask "figma"
 # Collaborative team software
 cask "figma-beta"
 cask "font-fira-code"
+cask "font-inter"
 # Desktop client for GitHub repositories
 cask "github"
 cask "glyphfinder"
@@ -57,7 +58,8 @@ cask "insomnia"
 cask "slack"
 # Open-source code editor
 cask "visual-studio-code"
-mas "1Password 7", id: 1333542190
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "AdBlock", id: 1402042596
 mas "Boop", id: 1518425043
 mas "CleanMyMac-MAS", id: 1339170533
