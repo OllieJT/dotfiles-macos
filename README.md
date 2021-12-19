@@ -2,9 +2,9 @@
 
 ## TODO
 
--   [ ] Decide on a terminal
+-   [x] Decide on a terminal
     -   [iterm](https://github.com/vercel/hyper)
-    -   hyper
+    -   **->** hyper
 -   [ ] Resolve missing fish features
     -   [ ] Customize shell prompt. Maybe [spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt)
     -   [ ] Add auto-completions
@@ -20,7 +20,8 @@
     -   [ ] [insomnia](https://draculatheme.com/insomnia)
     -   [ ] [zsh](https://draculatheme.com/zsh-syntax-highlighting)
 -   [ ] Add manual instructions
-    -   Disable spotlight command (conflicts with Raycast)
+    -   [ ] Disable spotlight command (conflicts with Raycast)
+    -   [ ] Enable iterm configuration
     -   [ ] Raycast Config
     -   [ ] Install Apps
         -   [ ] Spotify
