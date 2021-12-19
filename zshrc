@@ -11,7 +11,7 @@ export NULLCMD=bat
 # Create Aliases
 # alias ls="ls -lAFh"
 alias ls="exa -laFh --git"
-alias update-brewfile="cd ~/.dotfiles && brew bundle dump --force --describe && echo 'Brewfile updated ✅'"
+alias bbd="cd ~/.dotfiles && brew bundle dump --force --describe && echo 'Brewfile updated ✅'"
 alias trail="bat <<<${(F)path}"
 
 # Customize PS1 Prompt(s)
