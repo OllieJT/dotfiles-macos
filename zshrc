@@ -38,3 +38,5 @@ function lsf(){
 
 
 # USE ZSH Functions
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
