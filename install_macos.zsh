@@ -33,6 +33,7 @@ defaults write com.apple.universalaccess reduceTransparency -bool true
 
 # Set highlight color to orange
 defaults write NSGlobalDomain AppleHighlightColor -string "1.000000 0.874510 0.701961"
+defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 
 # Set sidebar icon size to medium
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
