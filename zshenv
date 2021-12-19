@@ -1,5 +1,6 @@
 source ~/.zsh-nvm/zsh-nvm.plugin.zsh
 
+
 function exists(){
 	command -v $1 >/dev/null 2>&1
 }
