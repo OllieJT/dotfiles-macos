@@ -2,23 +2,11 @@
 
 ## TODO
 
--   [x] Decide on a terminal
-    -   [iterm](https://github.com/vercel/hyper)
-    -   **->** hyper
--   [ ] Resolve missing fish features
-    -   [ ] Customize shell prompt. Maybe [spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt)
-    -   [ ] Add auto-completions
+-   [ ] Move these to github issues
+-   [ ] Slow switching shells (.zshenv if's)
 -   [ ] Add MacOS Config
     -   [ ] Configure dock https://github.com/kcrawford/dockutil
-    -   [x] Sync System Preferences
--   [ ] Add Dracula theme throughout
-    -   [x] [Terminal](https://draculatheme.com/terminal)
-    -   [x] [iTerm](https://draculatheme.com/iterm)
-    -   [x] [Slack](https://draculatheme.com/slack)
-    -   [x] [Chrome](https://draculatheme.com/chrome)
-    -   [x] [Hyper](https://draculatheme.com/hyper)
-    -   [ ] [insomnia](https://draculatheme.com/insomnia)
-    -   [ ] [zsh](https://draculatheme.com/zsh-syntax-highlighting)
+-   [ ] Login to `gh`: [gh-auth](https://cli.github.com/manual/gh_auth_login)
 -   [ ] Add manual instructions
     -   [ ] Disable spotlight command (conflicts with Raycast)
     -   [ ] Enable iterm configuration
