@@ -33,5 +33,23 @@ else
 fi
 
 
+# TODO: Confirm this fix pre-install check
+if [ "$ZSH_CUSTOM" = "$HOME/.oh-my-zsh" ]; then
+	echo "\n  [ZSH Setup]: 🟢 OhMyZSH already installed\n"
+else
+	echo "\n  [ZSH Setup]: 🚧 Installing OhMyZSH\n"
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+	# TODO: This assumes only new setups require the plugins
+	echo "\n  [ZSH Setup]: 🚧 Installing omz plugin: Auto Suggestions\n"
+	git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+	echo "\n  [ZSH Setup]: 🚧 Installing omz plugin: Auto Completions\n"
+	git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+
+fi
+
+
+
+
 
 echo "\n  [ZSH Setup]: ✅ COMPLETE\n"

@@ -1,2 +1,4 @@
 Brewfile.lock.json
 .DS_Store
+oh-my-zsh/plugins/zsh-autosuggestions/
+oh-my-zsh/plugins/zsh-completions/

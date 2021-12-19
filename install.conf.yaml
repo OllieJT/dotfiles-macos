@@ -15,6 +15,7 @@
       ~/.config/gh: config/gh
       ~/.config/git: config/git
       ~/.config/bat: config/bat
+      ~/.oh-my-zsh/custom: oh-my-zsh
       ~/.nvmrc:
       ~/.hyper.js:
 - shell:
