@@ -12,14 +12,13 @@
     -   [ ] Configure dock https://github.com/kcrawford/dockutil
     -   [x] Sync System Preferences
 -   [ ] Add Dracula theme throughout
-    -   [ ] [Terminal](https://draculatheme.com/terminal)
+    -   [x] [Terminal](https://draculatheme.com/terminal)
     -   [x] [iTerm](https://draculatheme.com/iterm)
-    -   [ ] [Slack](https://draculatheme.com/slack)
-    -   [ ] [Chrome](https://draculatheme.com/chrome)
-    -   [ ] [Hyper](https://draculatheme.com/hyper)
+    -   [x] [Slack](https://draculatheme.com/slack)
+    -   [x] [Chrome](https://draculatheme.com/chrome)
+    -   [x] [Hyper](https://draculatheme.com/hyper)
     -   [ ] [insomnia](https://draculatheme.com/insomnia)
     -   [ ] [zsh](https://draculatheme.com/zsh-syntax-highlighting)
-    -   [ ] [Terminal]()
 -   [ ] Add manual instructions
     -   Disable spotlight command (conflicts with Raycast)
     -   [ ] Raycast Config
