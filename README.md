@@ -2,21 +2,38 @@
 
 ## TODO
 
--   Setup MacOS preferences
+-   [ ] Decide on a terminal
+    -   [iterm](https://github.com/vercel/hyper)
+    -   hyper
+-   [ ] Resolve missing fish features
+    -   [ ] Customize shell prompt. Maybe [spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt)
+    -   [ ] Add auto-completions
+-   [ ] Add MacOS Config
+    -   [ ] Configure dock https://github.com/kcrawford/dockutil
+    -   [ ] Sync System Preferences [ex](https://github.com/lra/mackup)
+    -   [ ] Sync application settings with [Mackup](https://github.com/lra/mackup)
+-   [ ] Add Dracula theme throughout
+    -   [ ] [Terminal](https://draculatheme.com/terminal)
+    -   [ ] [iTerm](https://draculatheme.com/iterm)
+    -   [ ] [Slack](https://draculatheme.com/slack)
+    -   [ ] [Chrome](https://draculatheme.com/chrome)
+    -   [ ] [Hyper](https://draculatheme.com/hyper)
+    -   [ ] [insomnia](https://draculatheme.com/insomnia)
+    -   [ ] [zsh](https://draculatheme.com/zsh-syntax-highlighting)
+    -   [ ] [Terminal]()
+-   [ ] Add manual instructions
     -   Disable spotlight command (conflicts with Raycast)
-    -   Configure dock https://github.com/kcrawford/dockutil
--   Add manual instructions for Raycast Config
--   Add Node & NVM
-    -   Install Yarn
-    -   Install NPM CLI tools
-        -   @sanity/cli
-    -   Set nvm defaults
--   Install Github desktop
--   Create Developer folder
--   Install iTerm
--   Add Dracula theme throughout
--   Add Inter font
--   Resolve shell extensions or switch back to fish
+    -   [ ] Raycast Config
+    -   [ ] Install Apps
+        -   [ ] Spotify
+        -   [ ] [Postgress App](https://postgresapp.com/)
+    -   [ ]
+-   [ ] Document CLI Commands & functions
+    -   `bat`
+    -   `update-brewfile`
+    -   `mkcd`
+    -   `lsf`
+    -   `trail`
 
 ## Restore Instructions
 
