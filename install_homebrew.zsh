@@ -1,14 +1,14 @@
 #!/usr/bin/env zsh
 
-echo "\n [Homebrew Setuip]: STARTING 🚧\n"
+echo "\n  [Homebrew Setup]: 🚧 STARTING\n"
 
 if exists brew; then
-	echo "\n [Homebrew Setuip]: Skipping Install 🟢 (Already Installed)\n"
+	echo "\n  [Homebrew Setup]: 🟢 Skipping Install (Already Installed)\n"
 else
-	echo "\n [Homebrew Setuip]: Installing 🟡\n"
+	echo "\n  [Homebrew Setup]: 🟡 Installing\n"
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 brew bundle --verbose
 
- echo "\n [Homebrew Setuip]: COMPLETE ✅\n"
+ echo "\n  [Homebrew Setup]: ✅ COMPLETE\n"

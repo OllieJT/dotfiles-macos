@@ -1,9 +1,11 @@
+# This file only loads in the interactive shell, that means configuration defined here won't be avalible in other scripts.
 echo "Loaded .zshrc"
 
 # Set Variables
 ## Bat syntax highlighting for manpages
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+export NULLCMD=bat
 
 # Change zshrc
 
@@ -11,7 +13,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 # alias ls="ls -lAFh"
 alias ls="exa -laFh --git"
 alias update-brewfile="cd ~/.dotfiles && brew bundle dump --force --describe && echo 'Brewfile updated ✅'"
-alias trail="<<<${(F)path}"
+alias trail="bat <<<${(F)path}"
 
 # Customize PS1 Prompt(s)
 PROMPT="
@@ -23,6 +25,8 @@ RPROMPT="%*"
 ## Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PATH="$PATH:/opt/homebrew/bin"
+
+
 
 # Write Handy Functions
 function mkcd(){
