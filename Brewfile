@@ -19,15 +19,42 @@ brew "fish"
 brew "gh"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Pager program similar to more
+brew "less"
 # Mac App Store command-line interface
 brew "mas"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Installer for BetterDiscord
+cask "betterdiscord-installer"
+# Calendar for professionals and teams
+cask "cron"
+# Voice and text chat software
+cask "discord"
+# Collaborative team software
+cask "figma"
+# Collaborative team software
+cask "figma-beta"
 cask "font-fira-code"
+# Desktop client for GitHub repositories
+cask "github"
+cask "glyphfinder"
 # Web browser
 cask "google-chrome"
 # Web browser
 cask "google-chrome-dev"
+# Graphically shows disk usage within a file system
+cask "grandperspective"
+# Tool to optimize images to a smaller size
+cask "imageoptim"
+# HTTP and GraphQL Client
+cask "insomnia"
+# Team communication and collaboration software
+cask "slack"
 # Open-source code editor
 cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
