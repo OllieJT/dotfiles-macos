@@ -5,6 +5,7 @@
           stderr: true
       link:
           create: true
+          relink: true
 - link:
       ~/.gitconfig:
       ~/.zshrc:
