@@ -1,0 +1,1031 @@
+apt                        iconsur                    poppler-qt5
+archey4                    imap-backup                postgresql@13
+argocd-autopilot           imath                      principalmapper
+argocd-vault-plugin        indicators                 procps
+artillery                  influxdb-cli               proj@7
+as-tree                    influxdb@1                 projectm
+at-spi2-atk                inframap                   psalm
+at-spi2-core               ipinfo-cli                 ptpython
+atkmm@2.28                 iproute2                   pure
+atmos                      iputils                    px
+atop                       iredis                     py-spy
+attr                       isa-l                      pydocstyle
+atuin                      java-service-wrapper       pyflow
+autoconf@2.69              jello                      pyoxidizer
+autorestic                 jellyfish                  pyqt-3d
+avahi                      joplin-cli                 pyqt-builder
+aws-console                jpdfbookmarks              pyqt-networkauth
+aws-rotate-key             jpeg-xl                    pyright
+aws-sso-util               jql                        pyside@2
+aws-vault                  jrsonnet                   python-launcher
+baidupcs-go                json5                      python-tabulate
+bandit                     jsonschema                 python-tk@3.10
+bas55                      julia                      python-tk@3.9
+bash_unit                  k2tf                       python@3.10
+basis_universal            kalker                     pythran
+bat-extras                 kcgi                       pywhat
+bbtools                    keptn                      qodem
+bgpq4                      kertish-dfs                qt-libiodbc
+biber                      khiva                      qt-mariadb
+bioperl                    ki                         qt-mysql
+bosh-cli                   kickstart                  qt-percona-server
+bottom                     klee                       qt-postgresql
+bpython                    kn                         qt-unixodbc
+brigade-cli                ko                         qthreads
+brook                      kotlin-language-server     qwt-qt5
+btop                       kube-score                 range2cidr
+bubblewrap                 kubeconform                rbw
+buildpulse-test-reporter   kubergrunt                 rdkit
+bupstash                   kubernetes-cli@1.22        red-tldr
+ca-certificates            kubeval                    regula
+cadence-workflow           kubevela                   reproc
+cadical                    lastz                      revive
+caire                      latino                     rhit
+cairomm@1.14               ld-find-code-refs          richmd
+cargo-audit                leaf-proxy                 rizin
+cargo-bloat                lefthook                   rmw
+cargo-llvm-lines           lexbor                     rollup
+cargo-outdated             libaec                     ronn
+cargo-watch                libavif                    rosa-cli
+cassandra@3                libcap-ng                  rover
+cava                       libfuse@2                  rpg-cli
+cgif                       libmd                      rpki-client
+charmcraft                 libmng                     rsc_2fa
+cherrytree                 libmobi                    rtl_433
+chroma                     libnghttp2                 rttr
+chrpath                    libnsl                     ruby@2.7
+cidr2range                 libpinyin                  rustfmt
+cilium-cli                 libpipeline                s4cmd
+ciphey                     libprelude                 sail
+clang-format@11            librespot                  salt-lint
+clarinet                   librist                    samba
+clash                      libsigrok                  saml2aws
+clazy                      libsigrokdecode            scorecard
+clickhouse-cpp             libsoup@2                  scotch
+clickhouse-odbc            libunwind                  scry
+cloudflare-wrangler        libva                      search-that-hash
+cloudiscovery              libvdpau                   selene
+clusterctl                 libvnc                     seqkit
+cmake-docs                 libxls                     sevenzip
+code-minimap               libxml++@4                 sextractor
+coin3d                     libxml++@5                 sigrok-cli
+colima                     licensefinder              simde
+conftest                   lilypond                   singularity
+conmon                     lima                       six
+copier                     linux-headers@4.15         slides
+corepack                   linux-pam                  slirp4netns
+cosign                     liqoctl                    smu
+counterfeiter              lit                        smug
+coursier                   llvm@11                    snowpack
+cpplint                    llvm@12                    soapyrtlsdr
+cppzmq                     lm-sensors                 soapysdr
+cpufetch                   locust                     solana
+crackpkcs                  logswan                    spaceship
+crane                      lp_solve                   spack
+crcany                     lsix                       spdx-sbom-generator
+cri-tools                  lttng-ust                  spectra
+crispy-doom                lua-language-server        spirv-llvm-translator
+cruft                      lua@5.3                    spot
+crun                       luajit-openresty           sql-lint
+csvtk                      luau                       sqlancer
+cue                        lunzip                     sqlbench
+curlie                     luv                        sqlc
+cyral-gimme-db-token       ly                         sqlx-cli
+darglint                   lychee                     sqsmover
+dasel                      lziprecover                statix
+datafusion                 macchina                   storj-uplink
+datalad                    macos-term-size            stp
+datree                     magic_enum                 stylua
+ddcctl                     mailcatcher                svgbob
+delve                      mapcidr                    swiftplantuml
+demumble                   marcli                     symengine
+detect-secrets             mariadb@10.5               sysstat
+djhtml                     marp-cli                   systemd
+djl-serving                massdns                    t-rec
+dnsx                       mathlibtools               tailscale
+doc8                       matterbridge               tbb@2020
+docui                      maturin                    tctl
+docuum                     mbedtls@2                  tendermint
+dory                       md4c                       terminator
+dotbot                     mdzk                       terracognita
+dprint                     mermaid-cli                terraform-rover
+driftctl                   microsocks                 terraform@0.13
+drill                      mimalloc                   texlive
+dstask                     minisat                    tfk8s
+dua-cli                    mist                       tfmigrate
+duf                        mmtabbarview               tfproviderlint
+dynomite                   moar                       tfupdate
+efm-langserver             mockery                    tgenv
+ehco                       mongocli                   thrax
+eigenpy                    mongosh                    threemux
+elan-init                  moto                       tilt
+elfutils                   mpdecimal                  timg
+enkits                     mr2                        tm
+enzyme                     mrbayes                    tmuxp
+epr                        msc-generator              tomcat@9
+erlang@23                  msgpack-cxx                toml11
+esbuild                    mt32emu                    tracker
+f2                         muffet                     trec_eval
+f3d                        multi-git-status           trojan-go
+fabric-installer           multitime                  truffle
+fann                       murex                      tsduck
+fanyi                      mx                         tssh
+fastfec                    name-that-hash             twty
+fastp                      nanoflann                  tz
+fastq-tools                nbsdgames                  uftrace
+fcp                        ncc                        umple
+feroxbuster                ncnn                       universal-ctags
+fheroes2                   neovim-qt                  urlwatch
+firefoxpwa                 neovim-remote              uuu
+fisher                     net-tools                  vala-language-server
+flamebearer                newrelic-infra-agent       vc
+flow-cli                   node@16                    vespa-cli
+fluid-synth@2.1            nomino                     viddy
+fnlfmt                     notcurses                  virtualenv
+forge                      nox                        virtualenvwrapper
+frum                       ns-3                       vite
+fst                        nsh                        vitess
+func-e                     nuclei                     viu
+fuse-overlayfs             numactl                    vsh
+g2o                        oakc                       vtable-dumper
+gallery-dl                 obfs4proxy                 vue-cli
+gcc@10                     ocaml-zarith               waffle
+gdu                        oksh                       wasmtime
+geph4                      onedrive                   wayland
+ghc@9                      open-adventure             wayland-protocols
+ghostunnel                 openalpr                   waypoint
+git-branchless             openexr@2                  webhook
+git-cliff                  openfpgaloader             west
+git-credential-libsecret   openj9                     wildmidi
+git-svn                    openliberty-jakartaee8     wllvm
+git-xargs                  openliberty-microprofile4  xauth
+gitbackup                  openliberty-webprofile8    xcb-util-cursor
+gitlab-ci-local            openmama                   xcb-util-image
+gitwatch                   openmodelica               xcb-util-keysyms
+glibc                      opensearch                 xcb-util-renderutil
+gnupg@2.2                  opensearch-dashboards      xcb-util-wm
+go-boring                  openssl@3                  xcbeautify
+go-critic                  oras                       xcinfo
+go@1.15                    orgalorg                   xcprojectlint
+go@1.16                    organize-tool              xfig
+goawk                      osc-cli                    xplr
+gofumpt                    osinfo-db                  xray
+gojq                       osinfo-db-tools            xsel
+gomodifytags               osmcoastline               ykdl
+gopass-jsonapi             ots                        youtube-dlc
+goplus                     pam-reattach               youtubedr
+goproxy                    pandoc-plot                youtubeuploader
+goredo                     pari-elldata               yq@3
+gotests                    pari-galdata               yt-dlp
+gotify                     pari-galpol                yubikey-agent
+gpg-tui                    pari-seadata               zellij
+gradle@6                   pari-seadata-big           zet
+graphqurl                  parliament                 zinit
+grepip                     parquet-cli                zlib-ng
+grokj2k                    payload-dumper-go          zsh-async
+grokmirror                 pcalc                      zsh-vi-mode
+==> Updated Formulae
+Updated 5261 formulae.
+==> Renamed Formulae
+badtouch -> authoscope
+envoy@1.17 -> envoy@1.18
+fcct -> butane
+glibmm@2.64 -> glibmm@2.66
+grakn -> typedb
+gtk+4 -> gtk4
+ht-rust -> xh
+kafkacat -> kcat
+kde-extra-cmake-modules -> extra-cmake-modules
+kde-karchive -> karchive
+kde-kdoctools -> kdoctools
+kde-ki18n -> ki18n
+kde-threadweaver -> threadweaver
+libsasl2 -> cyrus-sasl
+linux-headers -> linux-headers@4.4
+minizip2 -> minizip-ng
+now-cli -> vercel-cli
+pangomm@2.42 -> pangomm@2.46
+parallelstl -> onedpl
+prest -> prestd
+prestosql -> trino
+pyqt5 -> pyqt@5
+qt5 -> qt@5
+rt-audio -> rtaudio
+selenium-server-standalone -> selenium-server
+weboob -> woob
+wxmac -> wxwidgets
+wxmac@3.0 -> wxwidgets@3.0
+==> Deleted Formulae
+amap                                     liberasurecode
+ape                                      libinfinity
+atlassian-cli                            libmill
+aurora-cli                               libopendkim
+avian                                    libpuzzle
+balance                                  libvbucket
+bbcolors                                 m2c
+boost@1.57                               magnetix
+boost@1.60                               makepp
+colorsvn                                 marst
+contacts                                 mboxgrep
+csv-fix                                  md
+curl-openssl                             namazu
+dlite                                    ocamlsdl
+dnsrend                                  osquery
+drip                                     pandoc-citeproc
+dshb                                     postmark
+dtrx                                     procyon-decompiler
+eject                                    protobuf-swift
+erlang@20                                protobuf@3.7
+es                                       redsocks
+eventlog                                 rmtrash
+flasm                                    sdhash
+fondu                                    shorten
+gconf                                    soundpipe
+gcore                                    srmio
+geant4                                   svdlibc
+gf-complete                              swiftplate
+git-sh                                   terraform-provisioner-ansible
+giter8                                   tj
+gobby                                    torrentcheck
+godep                                    udns
+henplus                                  unrar
+httptunnel                               vavrdiasm
+jerasure                                 whitedb
+kakasi                                   xidel
+l-smash                                  xtail
+libbind                                  zdelta
+
+/usr/local/bin/brew tap homebrew/bundle
+==> Tapping homebrew/bundle
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle'...
+remote: Enumerating objects: 6358, done.
+remote: Counting objects: 100% (536/536), done.
+remote: Compressing objects: 100% (347/347), done.
+remote: Total 6358 (delta 255), reused 407 (delta 186), pack-reused 5822
+Receiving objects: 100% (6358/6358), 1.48 MiB | 9.53 MiB/s, done.
+Resolving deltas: 100% (3678/3678), done.
+Tapped 1 command (98 files, 1.8MB).
+Skipping install of homebrew/bundle tap. It is already installed.
+Using homebrew/bundle
+Tapping homebrew/cask
+Installing homebrew/cask tap. It is not currently installed.
+==> Tapping homebrew/cask
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask'...
+remote: Enumerating objects: 610443, done.
+remote: Total 610443 (delta 0), reused 0 (delta 0), pack-reused 610443
+Receiving objects: 100% (610443/610443), 275.03 MiB | 25.09 MiB/s, done.
+Resolving deltas: 100% (431671/431671), done.
+Tapped 3937 casks (4,017 files, 294.6MB).
+Tapping homebrew/cask-fonts
+Installing homebrew/cask-fonts tap. It is not currently installed.
+==> Tapping homebrew/cask-fonts
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts'...
+remote: Enumerating objects: 58221, done.
+remote: Counting objects: 100% (501/501), done.
+remote: Compressing objects: 100% (149/149), done.
+remote: Total 58221 (delta 356), reused 494 (delta 352), pack-reused 57720
+Receiving objects: 100% (58221/58221), 10.92 MiB | 16.37 MiB/s, done.
+Resolving deltas: 100% (43100/43100), done.
+Tapped 1751 casks (1,784 files, 13.7MB).
+Tapping homebrew/cask-versions
+Installing homebrew/cask-versions tap. It is not currently installed.
+==> Tapping homebrew/cask-versions
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions'...
+remote: Enumerating objects: 241925, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 241925 (delta 8), reused 12 (delta 6), pack-reused 241909
+Receiving objects: 100% (241925/241925), 61.76 MiB | 24.69 MiB/s, done.
+Resolving deltas: 100% (167133/167133), done.
+Tapped 205 casks (235 files, 68.5MB).
+Skipping install of homebrew/core tap. It is already installed.
+Using homebrew/core
+Installing bat
+Installing bat formula. It is not currently installed.
+==> Downloading https://ghcr.io/v2/homebrew/core/bat/manifests/0.18.3
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: bat: Failed to download resource "bat_bottle_manifest"
+Download failed: https://ghcr.io/v2/homebrew/core/bat/manifests/0.18.3
+Installing bat has failed!
+Installing python@3.9
+Installing python@3.9 formula. It is not currently installed.
+==> Downloading https://ghcr.io/v2/homebrew/core/gdbm/manifests/1.22
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: python@3.9: Failed to download resource "gdbm_bottle_manifest"
+Download failed: https://ghcr.io/v2/homebrew/core/gdbm/manifests/1.22
+Installing python@3.9 has failed!
+Installing glib
+Installing glib formula. It is not currently installed.
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: glib: Failed to download resource "gettext_bottle_manifest"
+Download failed: https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21
+Installing glib has failed!
+Installing exa
+Installing exa formula. It is not currently installed.
+==> Downloading https://ghcr.io/v2/homebrew/core/exa/manifests/0.10.1-1
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: exa: Failed to download resource "exa_bottle_manifest"
+Download failed: https://ghcr.io/v2/homebrew/core/exa/manifests/0.10.1-1
+Installing exa has failed!
+Installing gcc
+Installing gcc formula. It is not currently installed.
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/manifests/6.2.1_1
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: gcc: Failed to download resource "gmp_bottle_manifest"
+Download failed: https://ghcr.io/v2/homebrew/core/gmp/manifests/6.2.1_1
+Installing gcc has failed!
+Installing fish
+Installing fish formula. It is not currently installed.
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.3
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: fish: Failed to download resource "ncurses_bottle_manifest"
+Download failed: https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.3
+Installing fish has failed!
+Installing gh
+Installing gh formula. It is not currently installed.
+==> Downloading https://ghcr.io/v2/homebrew/core/gh/manifests/2.3.0
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: gh: Failed to download resource "gh_bottle_manifest"
+Download failed: https://ghcr.io/v2/homebrew/core/gh/manifests/2.3.0
+Installing gh has failed!
+Installing httpie
+Installing httpie formula. It is not currently installed.
+==> Downloading https://ghcr.io/v2/homebrew/core/gdbm/manifests/1.22
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: httpie: Failed to download resource "gdbm_bottle_manifest"
+Download failed: https://ghcr.io/v2/homebrew/core/gdbm/manifests/1.22
+Installing httpie has failed!
+Installing less
+Installing less formula. It is not currently installed.
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.3
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: less: Failed to download resource "ncurses_bottle_manifest"
+Download failed: https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.3
+Installing less has failed!
+Installing mas
+Installing mas formula. It is not currently installed.
+==> Downloading https://ghcr.io/v2/homebrew/core/mas/manifests/1.8.5
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: mas: Failed to download resource "mas_bottle_manifest"
+Download failed: https://ghcr.io/v2/homebrew/core/mas/manifests/1.8.5
+Installing mas has failed!
+Installing nano
+Installing nano formula. It is not currently installed.
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: nano: Failed to download resource "gettext_bottle_manifest"
+Download failed: https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21
+Installing nano has failed!
+Installing zsh
+Installing zsh formula. It is not currently installed.
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.3
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: zsh: Failed to download resource "ncurses_bottle_manifest"
+Download failed: https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.3
+Installing zsh has failed!
+Installing 1password
+Installing 1password cask. It is not currently installed.
+==> Downloading https://c.1password.com/dist/1P/mac7/1Password-7.9.2.zip
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: Download failed on Cask '1password' with message: Download failed: https://c.1password.com/dist/1P/mac7/1Password-7.9.2.zip
+Installing 1password has failed!
+Installing betterdiscord-installer
+Installing betterdiscord-installer cask. It is not currently installed.
+==> Downloading https://github.com/BetterDiscord/Installer/releases/download/v1.
+==> Downloading from https://objects.githubusercontent.com/github-production-rel
+######################################################################## 100.0%
+==> Installing Cask betterdiscord-installer
+Warning: macOS's Gatekeeper has been disabled for this Cask
+==> Moving App 'BetterDiscord.app' to '/Applications/BetterDiscord.app'
+🍺  betterdiscord-installer was successfully installed!
+Installing cron
+Installing cron cask. It is not currently installed.
+==> Downloading https://download.todesktop.com/210303leazlircz/Cron%201.107.0-x6
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: Download failed on Cask 'cron' with message: Download failed: https://download.todesktop.com/210303leazlircz/Cron%201.107.0-x64-mac.zip
+Installing cron has failed!
+Installing discord
+Installing discord cask. It is not currently installed.
+==> Downloading https://dl.discordapp.net/apps/osx/0.0.264/Discord.dmg
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: Download failed on Cask 'discord' with message: Download failed: https://dl.discordapp.net/apps/osx/0.0.264/Discord.dmg
+Installing discord has failed!
+Installing figma
+Installing figma cask. It is not currently installed.
+==> Downloading https://desktop.figma.com/mac/Figma-107.1.0.zip
+######################################################################## 100.0%
+==> Installing Cask figma
+Warning: macOS's Gatekeeper has been disabled for this Cask
+==> Purging files for version 107.1.0 of Cask figma
+Error: It seems there is already an App at '/Applications/Figma.app'.
+Installing figma has failed!
+Installing figma-beta
+Installing figma-beta cask. It is not currently installed.
+==> Downloading https://desktop.figma.com/mac/beta/FigmaBeta-107.1.0.zip
+######################################################################## 100.0%
+==> Installing Cask figma-beta
+Warning: macOS's Gatekeeper has been disabled for this Cask
+==> Moving App 'Figma Beta.app' to '/Applications/Figma Beta.app'
+🍺  figma-beta was successfully installed!
+Installing font-fira-code
+Installing font-fira-code cask. It is not currently installed.
+==> Downloading https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Co
+==> Downloading from https://objects.githubusercontent.com/github-production-rel
+######################################################################## 100.0%
+==> Installing Cask font-fira-code
+Warning: macOS's Gatekeeper has been disabled for this Cask
+==> Moving Font 'FiraCode-VF.ttf' to '/Users/theolliejt/Library/Fonts/FiraCode-V
+🍺  font-fira-code was successfully installed!
+Installing font-inter
+Installing font-inter cask. It is not currently installed.
+==> Downloading https://github.com/rsms/inter/releases/download/v3.19/Inter-3.19
+==> Downloading from https://objects.githubusercontent.com/github-production-rel
+######################################################################## 100.0%
+==> Installing Cask font-inter
+Warning: macOS's Gatekeeper has been disabled for this Cask
+==> Moving Font 'Inter-V.ttf' to '/Users/theolliejt/Library/Fonts/Inter-V.ttf'
+==> Moving Font 'Inter-BlackItalic.otf' to '/Users/theolliejt/Library/Fonts/Inte
+==> Moving Font 'Inter-Bold.otf' to '/Users/theolliejt/Library/Fonts/Inter-Bold.
+==> Moving Font 'Inter-BoldItalic.otf' to '/Users/theolliejt/Library/Fonts/Inter
+==> Moving Font 'Inter-ExtraBold.otf' to '/Users/theolliejt/Library/Fonts/Inter-
+==> Moving Font 'Inter-ExtraBoldItalic.otf' to '/Users/theolliejt/Library/Fonts/
+==> Moving Font 'Inter-ExtraLight.otf' to '/Users/theolliejt/Library/Fonts/Inter
+==> Moving Font 'Inter-ExtraLightItalic.otf' to '/Users/theolliejt/Library/Fonts
+==> Moving Font 'Inter-Italic.otf' to '/Users/theolliejt/Library/Fonts/Inter-Ita
+==> Moving Font 'Inter-Light.otf' to '/Users/theolliejt/Library/Fonts/Inter-Ligh
+==> Moving Font 'Inter-LightItalic.otf' to '/Users/theolliejt/Library/Fonts/Inte
+==> Moving Font 'Inter-Medium.otf' to '/Users/theolliejt/Library/Fonts/Inter-Med
+==> Moving Font 'Inter-MediumItalic.otf' to '/Users/theolliejt/Library/Fonts/Int
+==> Moving Font 'Inter-Regular.otf' to '/Users/theolliejt/Library/Fonts/Inter-Re
+==> Moving Font 'Inter-SemiBold.otf' to '/Users/theolliejt/Library/Fonts/Inter-S
+==> Moving Font 'Inter-SemiBoldItalic.otf' to '/Users/theolliejt/Library/Fonts/I
+==> Moving Font 'Inter-Thin.otf' to '/Users/theolliejt/Library/Fonts/Inter-Thin.
+==> Moving Font 'Inter-ThinItalic.otf' to '/Users/theolliejt/Library/Fonts/Inter
+==> Moving Font 'Inter-Black.otf' to '/Users/theolliejt/Library/Fonts/Inter-Blac
+🍺  font-inter was successfully installed!
+Installing github
+Installing github cask. It is not currently installed.
+==> Downloading https://desktop.githubusercontent.com/github-desktop/releases/2.
+######################################################################## 100.0%
+==> Installing Cask github
+Warning: macOS's Gatekeeper has been disabled for this Cask
+==> Purging files for version 2.9.6-9196a1ae of Cask github
+Error: It seems there is already an App at '/Applications/GitHub Desktop.app'.
+Installing github has failed!
+Installing glyphfinder
+Installing glyphfinder cask. It is not currently installed.
+==> Downloading https://ueber.fra1.cdn.digitaloceanspaces.com/glyphfinder/mac/Gl
+######################################################################## 100.0%
+==> Installing Cask glyphfinder
+Warning: macOS's Gatekeeper has been disabled for this Cask
+==> Moving App 'Glyphfinder.app' to '/Applications/Glyphfinder.app'
+🍺  glyphfinder was successfully installed!
+Installing google-chrome
+Installing google-chrome cask. It is not currently installed.
+==> Downloading https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: Download failed on Cask 'google-chrome' with message: Download failed: https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
+Installing google-chrome has failed!
+Installing google-chrome-dev
+Installing google-chrome-dev cask. It is not currently installed.
+==> Downloading https://dl.google.com/chrome/mac/dev/googlechromedev.dmg
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: Download failed on Cask 'google-chrome-dev' with message: Download failed: https://dl.google.com/chrome/mac/dev/googlechromedev.dmg
+Installing google-chrome-dev has failed!
+Installing grandperspective
+Installing grandperspective cask. It is not currently installed.
+==> Downloading https://downloads.sourceforge.net/grandperspectiv/grandperspecti
+##O#- #
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: Download failed on Cask 'grandperspective' with message: Download failed: https://downloads.sourceforge.net/grandperspectiv/grandperspective/2.5.4/GrandPerspective-2_5_4.dmg
+Installing grandperspective has failed!
+Installing imageoptim
+Installing imageoptim cask. It is not currently installed.
+==> Downloading https://imageoptim.com/ImageOptim1.8.8.tar.bz2
+#=#=#
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: Download failed on Cask 'imageoptim' with message: Download failed: https://imageoptim.com/ImageOptim1.8.8.tar.bz2
+Installing imageoptim has failed!
+Installing insomnia
+Installing insomnia cask. It is not currently installed.
+==> Downloading https://github.com/Kong/insomnia/releases/download/core%402021.7
+==> Downloading from https://objects.githubusercontent.com/github-production-rel
+######################################################################## 100.0%
+==> Installing Cask insomnia
+Warning: macOS's Gatekeeper has been disabled for this Cask
+==> Moving App 'Insomnia.app' to '/Applications/Insomnia.app'
+🍺  insomnia was successfully installed!
+Installing slack
+Installing slack cask. It is not currently installed.
+==> Downloading https://downloads.slack-edge.com/releases/macos/4.23.0/prod/x64/
+######################################################################## 100.0%
+==> Installing Cask slack
+Warning: macOS's Gatekeeper has been disabled for this Cask
+==> Purging files for version 4.23.0 of Cask slack
+Error: It seems there is already an App at '/Applications/Slack.app'.
+Installing slack has failed!
+Installing visual-studio-code
+Installing visual-studio-code cask. It is not currently installed.
+==> Downloading https://update.code.visualstudio.com/1.63.2/darwin/stable
+
+curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+Error: Download failed on Cask 'visual-studio-code' with message: Download failed: https://update.code.visualstudio.com/1.63.2/darwin/stable
+Installing visual-studio-code has failed!
+Installing zoom
+Installing zoom cask. It is not currently installed.
+==> Downloading https://cdn.zoom.us/prod/5.8.6.2879/Zoom.pkg
+######################################################################## 100.0%
+==> Installing Cask zoom
+Warning: macOS's Gatekeeper has been disabled for this Cask
+==> Running installer for zoom; your password may be necessary.
+Package installers may write to any location; options such as `--appdir` are ignored.
+Password:
+installer: Package name is Zoom
+installer: Installing at base path /
+installer: The install was successful.
+==> The Zoom package postinstall script launches the Zoom app
+==> Attempting to close zoom.us.app to avoid unwanted user intervention
+Warning: Unable to forcibly close zoom.us.app
+🍺  zoom was successfully installed!
+Installing mas. It is not currently installed.
+==> Downloading https://ghcr.io/v2/homebrew/core/mas/manifests/1.8.5
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:18fd65b45ff112
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Pouring mas--1.8.5.big_sur.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/mas/1.8.5: 7 files, 1.2MB
+==> Running `brew cleanup mas`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Installing AdBlock
+Installing AdBlock app. It is not currently installed.
+==> Downloading AdBlock for Safari
+==> Installed AdBlock for Safari
+Installing Boop
+Installing Boop app. It is not currently installed.
+==> Downloading Boop
+==> Installed Boop
+Installing CleanMyMac-MAS
+Installing CleanMyMac-MAS app. It is not currently installed.
+Warning: CleanMyMac X is already installed
+Installing Contrast
+Installing Contrast app. It is not currently installed.
+Warning: Contrast is already installed
+Installing GIF Brewery 3
+Installing GIF Brewery 3 app. It is not currently installed.
+==> Downloading GIF Brewery 3 by Gfycat
+==> Installed GIF Brewery 3 by Gfycat
+Installing Gifski
+Installing Gifski app. It is not currently installed.
+Warning: Gifski is already installed
+Installing Hand Mirror
+Installing Hand Mirror app. It is not currently installed.
+Warning: Hand Mirror is already installed
+Installing iMovie
+Installing iMovie app. It is not currently installed.
+Error: Download request failed: User selected cancel button
+Installing iMovie has failed!
+Installing JSONPeep
+Installing JSONPeep app. It is not currently installed.
+==> Downloading JSON Peep for Safari
+==> Installed JSON Peep for Safari
+Installing Keynote
+Installing Keynote app. It is not currently installed.
+==> Installed Keynote
+Installing Parcel
+Installing Parcel app. It is not currently installed.
+==> Downloading Parcel - Delivery Tracking
+==> Installed Parcel - Delivery Tracking
+Installing Save to Raindrop.io
+Installing Save to Raindrop.io app. It is not currently installed.
+Warning: Save to Raindrop.io is already installed
+Installing Slack
+Installing Slack app. It is not currently installed.
+Error: Download cancelled
+Installing Slack has failed!
+Installing Things
+Installing Things app. It is not currently installed.
+==> Downloading Things 3
+==> Installed Things 3
+Installing Webcam Settings
+Installing Webcam Settings app. It is not currently installed.
+==> Downloading Webcam Settings
+==> Installed Webcam Settings
+Installing Xcode
+Installing Xcode app. It is not currently installed.
+Warning: Xcode is already installed
+Homebrew Bundle failed! 25 Brewfile dependencies failed to install.
+
+  [Homebrew Setup]: 🔐 Pasword required -> accept Xcode license
+xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
+xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
+
+  [Homebrew Setup]: ✅ COMPLETE
+
+./install_zsh.zsh
+/Users/theolliejt/.zshenv:source:3: no such file or directory: /Users/theolliejt/.zsh-nvm/zsh-nvm.plugin.zsh
+/Users/theolliejt/.zshenv:29: command not found: add-zsh-hook
+load-nvmrc:1: command not found: nvm
+load-nvmrc:2: command not found: nvm_find_nvmrc
+load-nvmrc:12: command not found: nvm
+
+ [ZSH Setup]: 🚧 STARTING
+
+
+  [ZSH Setup]: 🔐 Pasword required for SUDO user -> Adding ZSH to [/etc/shells]
+
+  [ZSH Setup]: 🔐 Pasword required for current user -> Changhing default shell to ZSH
+Changing shell for theolliejt.
+Password for theolliejt:
+chsh: WARNING: shell '/opt/homebrew/bin/zsh' does not exist
+
+  [ZSH Setup]: 🔐 Pasword required for SUDO user -> Symlinking sh to zsh
+/private/var/select/sh -> /bin/zsh
+
+  [ZSH Setup]: 🚧 Installing OhMyZSH
+
+The $ZSH folder already exists (/Users/theolliejt/.oh-my-zsh).
+You'll need to remove it if you want to reinstall.
+
+  [ZSH Setup]: 🚧 Installing omz plugin: Auto Suggestions
+
+Cloning into '/Users/theolliejt/.oh-my-zsh/custom/plugins/zsh-autosuggestions'...
+remote: Enumerating objects: 2435, done.
+remote: Counting objects: 100% (50/50), done.
+remote: Compressing objects: 100% (42/42), done.
+remote: Total 2435 (delta 21), reused 21 (delta 7), pack-reused 2385
+Receiving objects: 100% (2435/2435), 566.38 KiB | 4.32 MiB/s, done.
+Resolving deltas: 100% (1552/1552), done.
+
+  [ZSH Setup]: 🚧 Installing omz plugin: Auto Completions
+
+Cloning into '/Users/theolliejt/.oh-my-zsh/custom/plugins/zsh-completions'...
+remote: Enumerating objects: 4853, done.
+remote: Counting objects: 100% (218/218), done.
+remote: Compressing objects: 100% (126/126), done.
+remote: Total 4853 (delta 113), reused 173 (delta 91), pack-reused 4635
+Receiving objects: 100% (4853/4853), 1.86 MiB | 1.10 MiB/s, done.
+Resolving deltas: 100% (3056/3056), done.
+
+  [ZSH Setup]: ✅ COMPLETE
+
+./install_node.zsh
+/Users/theolliejt/.zshenv:source:3: no such file or directory: /Users/theolliejt/.zsh-nvm/zsh-nvm.plugin.zsh
+/Users/theolliejt/.zshenv:29: command not found: add-zsh-hook
+load-nvmrc:1: command not found: nvm
+load-nvmrc:2: command not found: nvm_find_nvmrc
+load-nvmrc:12: command not found: nvm
+
+  [Node Setup]: 🚧 STARTING
+
+
+  [Node Setup]: 🚧 Cloning lukechilds/zsh-nvm
+
+Cloning into '/Users/theolliejt/.zsh-nvm'...
+remote: Enumerating objects: 572, done.
+remote: Counting objects: 100% (46/46), done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 572 (delta 24), reused 38 (delta 20), pack-reused 526
+Receiving objects: 100% (572/572), 84.25 KiB | 2.11 MiB/s, done.
+Resolving deltas: 100% (302/302), done.
+
+  [Node Setup]: 🚧 Installing Latest Node LTS version
+
+./install_node.zsh:15: command not found: nvm
+./install_node.zsh:16: command not found: nvm
+./install_node.zsh:17: command not found: corepack
+
+  [Node Setup]: 🚧 Installing Global Packages
+
+/usr/local/bin/sanity -> /usr/local/lib/node_modules/@sanity/cli/bin/sanity
++ @sanity/cli@2.23.2
+updated 1 package in 2.879s
+/usr/local/bin/browser-sync -> /usr/local/lib/node_modules/browser-sync/dist/bin.js
++ browser-sync@2.27.7
+added 191 packages from 247 contributors in 15.883s
+
+
+   ╭───────────────────────────────────────────────────────────────╮
+   │                                                               │
+   │      New major version of npm available! 6.14.5 → 8.3.0       │
+   │   Changelog: https://github.com/npm/cli/releases/tag/v8.3.0   │
+   │               Run npm install -g npm to update!               │
+   │                                                               │
+   ╰───────────────────────────────────────────────────────────────╯
+
+/usr/local/bin/ntl -> /usr/local/lib/node_modules/netlify-cli/bin/run
+/usr/local/bin/netlify -> /usr/local/lib/node_modules/netlify-cli/bin/run
+
+> husky@4.3.8 install /usr/local/lib/node_modules/netlify-cli/node_modules/husky
+> node husky install
+
+husky > Setting up git hooks
+Can't find package.json in /Users/theolliejt/.dotfiles directory or parents
+Please check that your project has a package.json or create one and reinstall husky.
+husky > Failed to install
+
+> @netlify/esbuild@0.13.6 postinstall /usr/local/lib/node_modules/netlify-cli/node_modules/@netlify/esbuild
+> node install.js
+
+
+> husky@4.3.8 postinstall /usr/local/lib/node_modules/netlify-cli/node_modules/husky
+> opencollective-postinstall || exit 0
+
+Thank you for using husky!
+If you rely on this package, please consider supporting our open collective:
+> https://opencollective.com/husky/donate
+
+
+> netlify-cli@8.1.8 postinstall /usr/local/lib/node_modules/netlify-cli
+> node ./scripts/postinstall.js
+
+
+Success! Netlify CLI has been installed!
+
+Your device is now configured to use Netlify CLI to deploy and manage your Netlify sites.
+
+Next steps:
+
+  netlify init     Connect or create a Netlify site from current directory
+  netlify deploy   Deploy the latest changes to your Netlify site
+
+For more information on the CLI run netlify help
+Or visit the docs at https://cli.netlify.com
+
+Error: Not supported
+    at Object.<anonymous> (/usr/local/lib/node_modules/netlify-cli/src/commands/base-command.js:10:18)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/usr/local/lib/node_modules/netlify-cli/src/commands/index.js:1:21)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+Error: Not supported
+    at Object.<anonymous> (/usr/local/lib/node_modules/netlify-cli/src/commands/base-command.js:10:18)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/usr/local/lib/node_modules/netlify-cli/src/commands/index.js:1:21)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+
+/usr/local/lib/node_modules/netlify-cli/node_modules/netlify-redirector/lib/redirects.js:116
+      throw ex;
+      ^
+abort({}) at Error
+    at jsStackTrace (/usr/local/lib/node_modules/netlify-cli/node_modules/netlify-redirector/lib/redirects.js:1070:13)
+    at stackTrace (/usr/local/lib/node_modules/netlify-cli/node_modules/netlify-redirector/lib/redirects.js:1087:12)
+    at process.abort (/usr/local/lib/node_modules/netlify-cli/node_modules/netlify-redirector/lib/redirects.js:8502:44)
+    at process.emit (events.js:210:5)
+    at process.EventEmitter.emit (domain.js:475:20)
+    at processPromiseRejections (internal/process/promises.js:201:33)
+    at processTicksAndRejections (internal/process/task_queues.js:94:32)
+npm WARN notsup Unsupported engine for netlify-cli@8.1.8: wanted: {"node":"^12.20.0 || ^14.14.0 || >=16.0.0"} (current: {"node":"12.13.1","npm":"6.14.5"})
+npm WARN notsup Not compatible with your version of node/npm: netlify-cli@8.1.8
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/routing-local-proxy-win32-x64@0.34.1 (node_modules/netlify-cli/node_modules/@netlify/routing-local-proxy-win32-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/routing-local-proxy-win32-x64@0.34.1: wanted {"os":"win32","arch":"x64"} (current: {"os":"darwin","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/routing-local-proxy-linux-x64@0.34.1 (node_modules/netlify-cli/node_modules/@netlify/routing-local-proxy-linux-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/routing-local-proxy-linux-x64@0.34.1: wanted {"os":"linux","arch":"x64"} (current: {"os":"darwin","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/routing-local-proxy-darwin-arm64@0.34.1 (node_modules/netlify-cli/node_modules/@netlify/routing-local-proxy-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/routing-local-proxy-darwin-arm64@0.34.1: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"darwin","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/local-functions-proxy-win32-x64@1.1.1 (node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-win32-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/local-functions-proxy-win32-x64@1.1.1: wanted {"os":"win32","arch":"x64"} (current: {"os":"darwin","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/local-functions-proxy-win32-ia32@1.1.1 (node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-win32-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/local-functions-proxy-win32-ia32@1.1.1: wanted {"os":"win32","arch":"ia32"} (current: {"os":"darwin","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/local-functions-proxy-openbsd-x64@1.1.1 (node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-openbsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/local-functions-proxy-openbsd-x64@1.1.1: wanted {"os":"openbsd","arch":"x64"} (current: {"os":"darwin","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/local-functions-proxy-linux-x64@1.1.1 (node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/local-functions-proxy-linux-x64@1.1.1: wanted {"os":"linux","arch":"x64"} (current: {"os":"darwin","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/local-functions-proxy-linux-ppc64@1.1.1 (node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-ppc64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/local-functions-proxy-linux-ppc64@1.1.1: wanted {"os":"linux","arch":"ppc64"} (current: {"os":"darwin","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/local-functions-proxy-linux-ia32@1.1.1 (node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/local-functions-proxy-linux-ia32@1.1.1: wanted {"os":"linux","arch":"ia32"} (current: {"os":"darwin","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/local-functions-proxy-linux-arm64@1.1.1 (node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/local-functions-proxy-linux-arm64@1.1.1: wanted {"os":"linux","arch":"arm64"} (current: {"os":"darwin","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/local-functions-proxy-linux-arm@1.1.1 (node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/local-functions-proxy-linux-arm@1.1.1: wanted {"os":"linux","arch":"arm"} (current: {"os":"darwin","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/local-functions-proxy-freebsd-x64@1.1.1 (node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/local-functions-proxy-freebsd-x64@1.1.1: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"darwin","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/local-functions-proxy-freebsd-arm64@1.1.1 (node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-freebsd-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/local-functions-proxy-freebsd-arm64@1.1.1: wanted {"os":"freebsd","arch":"arm64"} (current: {"os":"darwin","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @netlify/local-functions-proxy-darwin-arm64@1.1.1 (node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @netlify/local-functions-proxy-darwin-arm64@1.1.1: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"darwin","arch":"x64"})
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 7
+npm ERR! netlify-cli@8.1.8 postinstall: `node ./scripts/postinstall.js`
+npm ERR! Exit status 7
+npm ERR!
+npm ERR! Failed at the netlify-cli@8.1.8 postinstall script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/theolliejt/.npm/_logs/2021-12-19T16_58_22_028Z-debug.log
+/usr/local/bin/supabase -> /usr/local/lib/node_modules/supabase/dist/cli.js
+
+> ejs@2.7.4 postinstall /usr/local/lib/node_modules/supabase/node_modules/ejs
+> node ./postinstall.js
+
+Thank you for installing EJS: built with the Jake JavaScript build tool (https://jakejs.com/)
+
++ supabase@0.5.0
+added 113 packages from 66 contributors in 10.583s
+
+> vercel@23.1.2 preinstall /usr/local/lib/node_modules/vercel
+> node ./scripts/preinstall.js
+
+/usr/local/bin/vercel -> /usr/local/lib/node_modules/vercel/dist/index.js
+/usr/local/bin/vc -> /usr/local/lib/node_modules/vercel/dist/index.js
++ vercel@23.1.2
+added 95 packages from 111 contributors and updated 1 package in 8.741s
+/usr/local/bin/tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
+/usr/local/bin/tsserver -> /usr/local/lib/node_modules/typescript/bin/tsserver
++ typescript@4.5.4
+added 1 package from 1 contributor in 1.306s
+
+  [Node Setup]: 🟢 Global packages installed
+
+/usr/local/lib
+├── @sanity/cli@2.23.2
+├── browser-sync@2.27.7
+├── npm@6.14.5
+├── supabase@0.5.0
+├── typescript@4.5.4
+└── vercel@23.1.2
+
+mkdir: /Users/theolliejt/Developer: File exists
+
+  [Node Setup]: ✅ COMPLETE
+
+./install_node.zsh:36: command not found: yarn
+Command [./install_node.zsh] failed
+./install_macos.zsh
+Installing nvm...
+Cloning into '/Users/theolliejt/.nvm'...
+remote: Enumerating objects: 8643, done.
+remote: Counting objects: 100% (74/74), done.
+remote: Compressing objects: 100% (41/41), done.
+remote: Total 8643 (delta 38), reused 55 (delta 28), pack-reused 8569
+Receiving objects: 100% (8643/8643), 3.19 MiB | 15.07 MiB/s, done.
+Resolving deltas: 100% (5478/5478), done.
+Found '/Users/theolliejt/.nvmrc' with version <lts/*>
+Downloading and installing node v16.13.1...
+Downloading https://nodejs.org/dist/v16.13.1/node-v16.13.1-darwin-x64.tar.xz...
+######################################################################## 100.0%
+Computing checksum with shasum -a 256
+Checksums matched!
+Now using node v16.13.1 (npm v8.1.2)
+Creating default alias: default -> lts/* (-> v16.13.1)
+
+  [System Preferences]: 🚧 STARTING
+
+41:45: execution error: System Preferences got an error: User cancelled. (-128)
+
+  [System Preferences]: 🔐 Pasword required -> changes to system preferences
+Warning: Idle sleep timings for "Battery Power" may not behave as expected.
+- Display sleep should have a lower timeout than system sleep.
+Warning: Idle sleep timings for "Battery Power" may not behave as expected.
+- Display sleep should have a lower timeout than system sleep.
+Warning: Idle sleep timings for "Battery Power" may not behave as expected.
+- Display sleep should have a lower timeout than system sleep.
+2021-12-19 16:59:21.478 defaults[67756:1001351] Could not write domain /.Spotlight-V100/VolumeConfiguration; exiting
+disablelocal: Unrecognized verb.
+
+  [System Preferences]: ✅ COMPLETE
+
+
+  [System Preferences]: ⁉️ Note that some of these changes require a logout/restart to take effect.
+
+Some commands were not successfully executed
+
+==> Some tasks were not executed successfully
+.dotfiles $
