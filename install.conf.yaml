@@ -16,6 +16,7 @@
       ~/.config/git: config/git
       ~/.config/bat: config/bat
       ~/.nvmrc:
+      ~/.hyper.js:
 - shell:
       - command: ./install_homebrew.zsh
       - command: ./install_zsh.zsh
