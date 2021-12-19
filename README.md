@@ -3,18 +3,9 @@
 ## TODO
 
 -   [ ] Move these to github issues
--   [ ] Slow switching shells (.zshenv if's)
--   [ ] Add MacOS Config
-    -   [ ] Configure dock https://github.com/kcrawford/dockutil
+-   [ ] Resolve slow switching shells (.zshenv if's)
+-   [ ] Configure MacOS dock https://github.com/kcrawford/dockutil
 -   [ ] Login to `gh`: [gh-auth](https://cli.github.com/manual/gh_auth_login)
--   [ ] Add manual instructions
-    -   [ ] Disable spotlight command (conflicts with Raycast)
-    -   [ ] Enable iterm configuration
-    -   [ ] Raycast Config
-    -   [ ] Install Apps
-        -   [ ] Spotify
-        -   [ ] [Postgress App](https://postgresapp.com/)
-    -   [ ]
 -   [ ] Document CLI Commands & functions
     -   `bat`
     -   `update-brewfile`
@@ -30,8 +21,7 @@
 4. Do one last Software Audit by editing [Brewfile](Brewfile) directly.
 5. [`./install`](install)
 6. Restart computer.
-7. Run `mackup restore`. Consider doing a `mackup restore --dry-run --verbose` first.
-8. [Generate ssh key](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), add to GitHub, and switch remotes.
+7. [Generate ssh key](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), add to GitHub, and switch remotes.
 
     ```zsh
     # Generate SSH key in default location (~/.ssh/config)
@@ -64,15 +54,12 @@
 
 ### Manual Steps
 
-#### Snappy App
+#### To be documented...
 
-1. `System Preferences > Keyboard > Shortcuts > Screenshots > Save picture of selected area as a file (cmd+shift+4)` uncheck.
-2. `Snappy Preferences > General > Take snap` change from `cmd+shift+2` (which conflicts with ScreenFlow) to `cmd+shift+4`.
-
-#### Alfred
-
-1. `System Preferences > Keyboard > Shortcuts > Spotlight > Show Spotlight search (cmd+space)` uncheck.
-2. `Alfred Preferences > Powerpack` add License.
-3. `Alfred Preferences > General > Request Permissions`.
-4. `Alfred Preferences > General > Alfred Hotkey` change to `cmd+space`.
-5. `Alfred Preferences > Advanced > Set preferences folder` and set to `~/Dropbox/dotfiles/Alfred`.
+-   [ ] Disable spotlight command (conflicts with Raycast)
+-   [ ] Enable iterm configuration
+-   [ ] Raycast Config
+-   [ ] Install Apps
+    -   [ ] Spotify
+    -   [ ] [Postgress App](https://postgresapp.com/)
+-   [ ]
