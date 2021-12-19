@@ -10,11 +10,10 @@
     -   [ ] Add auto-completions
 -   [ ] Add MacOS Config
     -   [ ] Configure dock https://github.com/kcrawford/dockutil
-    -   [ ] Sync System Preferences [ex](https://github.com/lra/mackup)
-    -   [ ] Sync application settings with [Mackup](https://github.com/lra/mackup)
+    -   [x] Sync System Preferences
 -   [ ] Add Dracula theme throughout
     -   [ ] [Terminal](https://draculatheme.com/terminal)
-    -   [ ] [iTerm](https://draculatheme.com/iterm)
+    -   [x] [iTerm](https://draculatheme.com/iterm)
     -   [ ] [Slack](https://draculatheme.com/slack)
     -   [ ] [Chrome](https://draculatheme.com/chrome)
     -   [ ] [Hyper](https://draculatheme.com/hyper)
