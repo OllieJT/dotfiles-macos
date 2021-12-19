@@ -1,5 +1,7 @@
 export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
+HIST_STAMPS="dd/mm/yyyy"
 source ~/.zsh-nvm/zsh-nvm.plugin.zsh
+
 
 
 function exists(){
@@ -23,3 +25,6 @@ load-nvmrc() {
     nvm use default
   fi
 }
+
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
