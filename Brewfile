@@ -54,6 +54,8 @@ cask "grandperspective"
 cask "imageoptim"
 # HTTP and GraphQL Client
 cask "insomnia"
+# File archiver
+cask "keka"
 # Team communication and collaboration software
 cask "slack"
 # Open-source code editor
