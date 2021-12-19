@@ -19,3 +19,5 @@
 - shell:
       - command: ./install_homebrew.zsh
       - command: ./install_zsh.zsh
+      - command: ./install_node.zsh
+      - command: ./install_macos.zsh
