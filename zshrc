@@ -4,7 +4,6 @@ echo "Loaded .zshrc"
 # Set Variables
 ## Bat syntax highlighting for manpages
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
 
 # Change zshrc

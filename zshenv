@@ -1,3 +1,4 @@
+export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
 source ~/.zsh-nvm/zsh-nvm.plugin.zsh
 
 
