@@ -29,8 +29,4 @@ npm install --global typescript
 echo "\n  [Node Install]: 🟢 Global packages installed\n"
 npm list --global --depth=0
 
-mkdir ~/Developer -p
-
 echo "\n  [Node Install]: ✅ COMPLETE\n"
-
-$(yarn global bin)

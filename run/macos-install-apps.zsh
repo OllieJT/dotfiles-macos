@@ -11,10 +11,7 @@ fi
 brew tap
 brew bundle --verbose
 
-# Should we wrap this in a conditional?
-echo "\n  [Homebrew Setup]: 🔐 Pasword required -> accept Xcode license"
-sudo xcodebuild -license accept
-sudo xcodebuild -runFirstLaunch
+
 
 # This works to solve the Insecure Directories issue:
 # compaudit | xargs chmod go-w

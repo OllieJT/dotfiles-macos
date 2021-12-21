@@ -24,3 +24,4 @@
       - command: ./run/macos-install-apps.zsh
       - command: ./run/macos-setup.zsh
       - command: ./run/node-install.zsh
+      - command: ./run/developer-setup.zsh
