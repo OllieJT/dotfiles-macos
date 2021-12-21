@@ -72,7 +72,7 @@ typeset -U path
 path=(
 	$NVM_BIN,
 	$path,
-	"/opt/homebrew/bin"
+	"/usr/local/bin"
 	"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 )
 

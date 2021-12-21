@@ -5,11 +5,11 @@ echo "\n [ZSH Setup]: 🚧 STARTING\n"
 
 
 # Changes default shell to ZSH
-if [ "$SHELL" = '/opt/homebrew/bin/zsh' ]; then
-	echo "\n  [ZSH Setup]: 🟢 [$SHELL] is already [/opt/homebrew/bin/zsh]\n"
+if [ "$SHELL" = '/usr/local/bin/zsh' ]; then
+	echo "\n  [ZSH Setup]: 🟢 [$SHELL] is already [/usr/local/bin/zsh]\n"
 else
 	echo "\n  [ZSH Setup]: 🔐 Pasword required for current user -> Changhing default shell to ZSH"
-	chsh -s '/opt/homebrew/bin/zsh'
+	chsh -s '/usr/local/bin/zsh'
 fi
 
 # Linking default sh command to zsh
@@ -21,7 +21,7 @@ else
   sudo ln -sfv /bin/zsh /private/var/select/sh
 
   # I'd like for this to work instead.
-  # sudo ln -sfv /opt/homebrew/bin/zsh /private/var/select/sh
+  # sudo ln -sfv /usr/local/bin/zsh /private/var/select/sh
 fi
 
 

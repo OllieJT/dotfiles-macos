@@ -1,14 +1,16 @@
 #!/usr/bin/env zsh
 
+echo "HELLO"
+
 echo "\n [ZSH Install]: 🚧 STARTING\n"
 
 
 # Installs ZSH from homebrew
-if grep -Fxq '/opt/homebrew/bin/zsh' '/etc/shells'; then
-	echo "\n  [ZSH Install]: 🟢 Skipping Install -> [/opt/homebrew/bin/zsh] already exists in [/etc/shells]\n"
+if grep -Fxq '/usr/local/bin/zsh' '/etc/shells'; then
+	echo "\n  [ZSH Install]: 🟢 Skipping Install -> [/usr/local/bin/zsh] already exists in [/etc/shells]\n"
 else
 	echo "\n  [ZSH Install]: 🔐 Pasword required for SUDO user -> Adding ZSH to [/etc/shells]"
-	echo '/opt/homebrew/bin/zsh' | sudo tee -a '/etc/shells' >/dev/null
+	echo '/usr/local/bin/zsh' | sudo tee -a '/etc/shells' >/dev/null
 fi
 
 
