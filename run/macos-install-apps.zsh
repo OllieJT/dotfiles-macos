@@ -8,7 +8,7 @@ else
 	echo "\n  [Homebrew Setup]: 🟡 Installing\n"
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
-
+brew tap
 brew bundle --verbose
 
 # Should we wrap this in a conditional?
