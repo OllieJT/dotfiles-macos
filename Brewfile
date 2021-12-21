@@ -27,6 +27,8 @@ brew "nano"
 brew "zsh"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# GPU-accelerated terminal emulator
+cask "alacritty"
 # Calendar for professionals and teams
 cask "cron"
 # Voice and text chat software
