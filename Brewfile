@@ -13,8 +13,6 @@ brew "glib"
 brew "exa"
 # GNU compiler collection
 brew "gcc"
-# User-friendly command-line shell for UNIX-like operating systems
-brew "fish"
 # GitHub command-line tool
 brew "gh"
 # User-friendly cURL replacement (command-line HTTP client)
@@ -72,6 +70,7 @@ mas "Hand Mirror", id: 1502839586
 mas "iMovie", id: 408981434
 mas "JSONPeep", id: 1458969831
 mas "Keynote", id: 409183694
+mas "Pages", id: 409201541
 mas "Parcel", id: 639968404
 mas "Save to Raindrop.io", id: 1549370672
 mas "Slack", id: 803453959
