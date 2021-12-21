@@ -5,14 +5,10 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
 # Core application library for C
 brew "glib"
 # Modern replacement for 'ls'
 brew "exa"
-# GNU compiler collection
-brew "gcc"
 # GitHub command-line tool
 brew "gh"
 # User-friendly cURL replacement (command-line HTTP client)
