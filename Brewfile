@@ -27,8 +27,6 @@ brew "nano"
 brew "zsh"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# Installer for BetterDiscord
-cask "betterdiscord-installer"
 # Calendar for professionals and teams
 cask "cron"
 # Voice and text chat software
