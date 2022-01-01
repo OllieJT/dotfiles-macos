@@ -3,6 +3,12 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+# Professional graphic design software
+brew "affinity-designer"
+# Professional image editing software
+brew "affinity-photo"
+# Professional desktop publishing software
+brew "affinity-publisher"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Core application library for C
