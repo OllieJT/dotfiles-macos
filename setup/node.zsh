@@ -20,11 +20,11 @@ corepack disable
 
 echo "\n  [Node Install]: 🚧 Installing Global Packages\n"
 npm install --global @sanity/cli
-npm install --global browser-sync
 npm install --global netlify-cli
-npm install --global supabase
 npm install --global vercel
 npm install --global typescript
+# npm install --global browser-sync
+# npm install --global supabase
 
 echo "\n  [Node Install]: 🟢 Global packages installed\n"
 npm list --global --depth=0

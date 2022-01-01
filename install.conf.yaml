@@ -19,9 +19,8 @@
       ~/.oh-my-zsh/custom: oh-my-zsh
       ~/.nvmrc:
 - shell:
-      - command: ./run/zsh-install.zsh
-      - command: ./run/zsh-setup.zsh
-      - command: ./run/macos-install-apps.zsh
-      - command: ./run/macos-setup.zsh
-      - command: ./run/node-install.zsh
-      - command: ./run/developer-setup.zsh
+      - command: ./setup/homebrew.zsh
+      - command: ./setup/zsh.zsh
+      - command: ./setup/development.zsh
+      - command: ./setup/node.zsh
+      - command: ./setup/macos.zsh

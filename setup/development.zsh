@@ -3,7 +3,7 @@
 echo "\n  [Developer Setup]: 🚧 STARTING\n"
 
 echo "\n  [Developer Setup]: 🟢 [$HOME/Developer] Created\n"
-mkdir ~/Developer -p
+mkdir -p ~/Developer
 
 # Should we wrap this in a conditional?
 echo "\n  [Developer Setup]: 🔐 Pasword required -> accept Xcode license"
