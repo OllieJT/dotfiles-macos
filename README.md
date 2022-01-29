@@ -48,6 +48,10 @@
 
 ### Manual Steps
 
+-   [ ] Install Apps
+    -   Spotify
+    -   [Postgress App](https://postgresapp.com/)
+
 ## Update Instructions
 
 ### Brew
@@ -77,7 +81,3 @@ brew bundle --verbose
 -   [ ] Disable spotlight command (conflicts with Raycast)
 -   [ ] Enable iterm configuration
 -   [ ] Raycast Config
--   [ ] Install Apps
-    -   [ ] Spotify
-    -   [ ] [Postgress App](https://postgresapp.com/)
--   [ ]
