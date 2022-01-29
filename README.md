@@ -6,11 +6,6 @@
 -   [ ] Resolve slow switching shells (.zshenv if's)
 -   [ ] Configure MacOS dock https://github.com/kcrawford/dockutil
 -   [ ] Login to `gh`: [gh-auth](https://cli.github.com/manual/gh_auth_login)
--   [ ] Document CLI Commands & functions
-    -   `bat`
-    -   `mkcd`
-    -   `lsf`
-    -   `trail`
 
 ## Restore Instructions
 
@@ -59,8 +54,25 @@
 
 ```sh
 # Update Brewfile
+# Equivilent to: cd $DOTFILES && brew bundle dump --force --describe
+bbd
+
+# Install from brewfile
 cd $DOTFILES
-brew bundle dump --force --describe
+brew tap
+brew bundle --verbose
+```
+
+## Cool new commands
+
+| Command | Description                                                               |
+| ------- | ------------------------------------------------------------------------- |
+| ls      | Upgraded with lsf and color highlighting for a cleaner output             |
+| bat     | Can replace cat for showing the content of files with syntax highlighting |
+| mkcd    | Makes a directory and moves to it                                         |
+| trail   | Prints out shell paths with bat                                           |
+
+## To be documented...
 
 -   [ ] Disable spotlight command (conflicts with Raycast)
 -   [ ] Enable iterm configuration
