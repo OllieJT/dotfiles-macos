@@ -24,4 +24,3 @@
       - command: ./setup/zsh.zsh
       - command: ./setup/development.zsh
       - command: ./setup/node.zsh
-      - command: ./setup/macos.zsh
