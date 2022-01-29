@@ -16,7 +16,7 @@
       ~/.config/git: config/git
       ~/.config/bat: config/bat
       ~/.config/alacritty: config/alacritty
-      ~/.config/com.googlecode.iterm2.plist:
+      ~/.config/com.googlecode.iterm2.plist: config/com.googlecode.iterm2.plist
       ~/.oh-my-zsh/custom: oh-my-zsh
       ~/.nvmrc:
 - shell:
