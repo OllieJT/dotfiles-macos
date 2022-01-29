@@ -8,7 +8,6 @@
 -   [ ] Login to `gh`: [gh-auth](https://cli.github.com/manual/gh_auth_login)
 -   [ ] Document CLI Commands & functions
     -   `bat`
-    -   `update-brewfile`
     -   `mkcd`
     -   `lsf`
     -   `trail`
@@ -54,7 +53,14 @@
 
 ### Manual Steps
 
-#### To be documented...
+## Update Instructions
+
+### Brew
+
+```sh
+# Update Brewfile
+cd $DOTFILES
+brew bundle dump --force --describe
 
 -   [ ] Disable spotlight command (conflicts with Raycast)
 -   [ ] Enable iterm configuration
