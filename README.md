@@ -52,6 +52,12 @@
     -   Spotify
     -   [Postgress App](https://postgresapp.com/)
 
+Accept Xcode terms
+
+```
+sudo xcodebuild -license
+```
+
 ## Update Instructions
 
 ### Brew
