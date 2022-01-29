@@ -5,8 +5,6 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Core application library for C
-brew "glib"
 # Modern replacement for 'ls'
 brew "exa"
 # GitHub command-line tool
@@ -35,6 +33,8 @@ cask "alacritty"
 cask "cron"
 # Voice and text chat software
 cask "discord"
+# Reimagine your terminal
+cask "fig"
 # Collaborative team software
 cask "figma"
 # Collaborative team software
@@ -55,29 +55,28 @@ cask "grandperspective"
 cask "imageoptim"
 # HTTP and GraphQL Client
 cask "insomnia"
+# System monitoring app
+cask "istat-menus"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
 # File archiver
 cask "keka"
+# Screen and video recording software
+cask "loom"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# Calculator and converter application
+cask "numi"
 # Modified browser that helps in responsive web development
 cask "responsively"
 # Team communication and collaboration software
 cask "slack"
+# Font manager application
+cask "typeface"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
-
-# START Custom
-cask "fig"
-cask "istat-menus"
-cask "loom"
-cask "numi"
-cask "typeface"
-# cask "gifski"
-# END Custom
-
-
 mas "Boop", id: 1518425043
 mas "CleanMyMac-MAS", id: 1339170533
 mas "Contrast", id: 1254981365
