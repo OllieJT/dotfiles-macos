@@ -77,7 +77,7 @@ cask "typeface"
 # cask "gifski"
 # END Custom
 
-mas "AdBlock", id: 1402042596
+
 mas "Boop", id: 1518425043
 mas "CleanMyMac-MAS", id: 1339170533
 mas "Contrast", id: 1254981365

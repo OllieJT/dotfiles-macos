@@ -48,15 +48,23 @@
 
 ### Manual Steps
 
+-   If you have issues with zsh set the shell in terminal to `/bin/zsh` to complete brew Install
 -   [ ] Install Apps
     -   Spotify
     -   [Postgress App](https://postgresapp.com/)
 
-Accept Xcode terms
+##### Accept Xcode terms
 
 ```
 sudo xcodebuild -license
 ```
+
+##### Set Shortcuts
+
+| App Name  | Name             | Shortcut             |
+| --------- | ---------------- | -------------------- |
+| Figma.app | Copy Properties  | Command + Option + C |
+| Figma.app | Paste Properties | Command + Option + P |
 
 ## Update Instructions
 
