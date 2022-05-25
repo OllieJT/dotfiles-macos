@@ -93,6 +93,10 @@ function lsf(){
 	ls "$1" | grep "$2"
 }
 
+function kill_by_port(){
+  lsof -i ":${1}" | awk 'NR > 1 {print $2}' | xargs kill -9
+}
+
 # Enable ZSH Plugins
 #### FIG ENV VARIABLES ####
 # Please make sure this block is at the end of this file.
