@@ -6,3 +6,5 @@
 	ignoreCase = false
 [lfs]
 	repositoryformatversion = 0
+[branch "main"]
+    mergeoptions = --no-ff
