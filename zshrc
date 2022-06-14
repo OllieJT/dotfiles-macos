@@ -1,45 +1,19 @@
 # This file only loads in the interactive shell, that means configuration defined here won't be avalible in other scripts.
 echo "Loaded .zshrc"
 
+
 # Set Variables
 ## Bat syntax highlighting for manpages
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export NULLCMD=bat
 export DOTFILES="$HOME/.dotfiles"
 export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
-export ZSH="$HOME/.oh-my-zsh"
-export ZSH_CUSTOM="$DOTFILES/oh-my-zsh"
+# export ZSH="$HOME/.oh-my-zsh"
+# export ZSH_CUSTOM="$DOTFILES/oh-my-zsh"
 
 export DENO_INSTALL="/Users/olliejt/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
-# Change ZSH Options
-## OhMyZSH
-ZSH_THEME="robbyrussell"
-ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-## Uncomment one of the following lines to change the auto-update behavior
-## zstyle ':omz:update' mode disabled  # disable automatic updates
-## zstyle ':omz:update' mode auto      # update automatically without asking
-## zstyle ':omz:update' mode reminder  # just remind me to update when it's time
-plugins=(
-	brew
-	dotenv
-	gh
-	git
-	macos
-	#npm
-	#npx
-	#nvm
-	safe-paste
-	zsh-autosuggestions
-	zsh-completions
-)
-source $ZSH/oh-my-zsh.sh
-
-# Add "zstyles" for Completions & Other Things
-zstyle ':completion:*:*:*:*:*' menu select
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-zstyle ':plugin:history-search-multi-word' clear-on-cancel 'yes'
 
 # Load "New" Completion System
 autoload -Uz compinit && compinit
@@ -95,3 +69,6 @@ function kill_by_port(){
 }
 
 # Enable ZSH Plugins
+
+# end
+eval "$(starship init zsh)"

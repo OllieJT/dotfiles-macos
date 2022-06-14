@@ -9,6 +9,7 @@
           force: true
 - link:
       ~/.gitconfig:
+      ~/.bashrc:
       ~/.zshrc:
       ~/.zshenv:
       ~/.zprofile:
@@ -17,7 +18,6 @@
       ~/.config/bat: config/bat
       ~/.config/alacritty: config/alacritty
       ~/.config/iterm2-config: config/iterm2-config
-      ~/.oh-my-zsh/custom: oh-my-zsh
       ~/.nvmrc:
 - shell:
       - command: ./setup/homebrew.zsh

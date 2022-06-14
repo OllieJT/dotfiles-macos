@@ -34,6 +34,8 @@ brew "node@14"
 brew "openjdk"
 # Persistent key-value database, with built-in net interface
 brew "redis"
+# Cross-shell prompt for astronauts
+brew "starship"
 # Lightweight BitTorrent client
 brew "transmission-cli"
 # UNIX shell (command interpreter)
