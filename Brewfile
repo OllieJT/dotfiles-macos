@@ -110,6 +110,7 @@ mas "Eagle for Safari", id: 1526651672
 mas "GIF Brewery 3", id: 1081413713
 mas "Gifski", id: 1351639930
 mas "Hand Mirror", id: 1502839586
+mas "iMovie", id: 408981434
 mas "JSONPeep", id: 1458969831
 mas "Keystroke Pro", id: 1572206224
 mas "NotePlan 3", id: 1505432629
