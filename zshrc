@@ -16,6 +16,9 @@ export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
 export ZSH="$HOME/.oh-my-zsh"
 export ZSH_CUSTOM="$DOTFILES/oh-my-zsh"
 
+export DENO_INSTALL="/Users/olliejt/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
 # Change ZSH Options
 ## OhMyZSH
 ZSH_THEME="robbyrussell"
