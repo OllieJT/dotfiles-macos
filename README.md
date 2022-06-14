@@ -6,6 +6,10 @@
 -   [ ] Resolve slow switching shells (.zshenv if's)
 -   [ ] Configure MacOS dock https://github.com/kcrawford/dockutil
 -   [ ] Login to `gh`: [gh-auth](https://cli.github.com/manual/gh_auth_login)
+-   [ ] Document
+    -   [ ] Disable spotlight command (conflicts with Raycast)
+    -   [ ] Enable iterm configuration
+    -   [ ] Raycast Config
 
 ## Restore Instructions
 
@@ -66,21 +70,6 @@ sudo xcodebuild -license
 | Figma.app | Copy Properties  | Command + Option + C |
 | Figma.app | Paste Properties | Command + Option + P |
 
-## Update Instructions
-
-### Brew
-
-```sh
-# Update Brewfile
-# Equivilent to: cd $DOTFILES && brew bundle dump --force --describe
-bbd
-
-# Install from brewfile
-cd $DOTFILES
-brew tap
-brew bundle --verbose
-```
-
 ## Cool new commands
 
 | Command | Description                                                               |
@@ -89,9 +78,3 @@ brew bundle --verbose
 | bat     | Can replace cat for showing the content of files with syntax highlighting |
 | mkcd    | Makes a directory and moves to it                                         |
 | trail   | Prints out shell paths with bat                                           |
-
-## To be documented...
-
--   [ ] Disable spotlight command (conflicts with Raycast)
--   [ ] Enable iterm configuration
--   [ ] Raycast Config
