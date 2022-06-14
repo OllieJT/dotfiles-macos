@@ -21,6 +21,7 @@
       ~/.nvmrc:
 - shell:
       - command: ./setup/homebrew.zsh
-      - command: ./setup/zsh.zsh
-      - command: ./setup/development.zsh
-      - command: ./setup/node.zsh
+      - command: ./setup/dev-zsh.zsh
+      - command: ./setup/sys-files.zsh
+      - command: ./setup/dev-xcode.zsh
+      - command: ./setup/dev-node.zsh

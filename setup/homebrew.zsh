@@ -12,7 +12,6 @@ brew tap
 brew bundle --verbose
 
 
-
 # This works to solve the Insecure Directories issue:
 # compaudit | xargs chmod go-w
 # But this is from the Homebrew site, though `-R` was needed:
