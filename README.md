@@ -23,7 +23,7 @@
 
     ```zsh
     # Generate SSH key in default location (~/.ssh/config)
-    ssh-keygen -t rsa -b 4096 -C "66495007+eieioxyz@users.noreply.github.com"
+    ssh-keygen -t rsa -b 4096 -C "<YOUR_EMAIL>@users.noreply.github.com"
 
     # Start the ssh-agent
     eval "$(ssh-agent -s)"
@@ -47,7 +47,7 @@
     ssh -T git@github.com
 
     # Switch from HTTPS to SSH
-    git remote set-url origin git@github.com:eieioxyz/dotfiles_macos.git
+    git remote set-url origin git@github.com:<YOUR_USERNAME>/dotfiles_macos.git
     ```
 
 ### Manual Steps
