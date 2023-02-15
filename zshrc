@@ -72,3 +72,8 @@ function kill_by_port(){
 
 # end
 eval "$(starship init zsh)"
+
+export NODE_PATH=$NODE_PATH:`npm root -g`
+
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
