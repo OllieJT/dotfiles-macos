@@ -18,6 +18,7 @@
       ~/.config/bat: config/bat
       ~/.config/alacritty: config/alacritty
       ~/.config/iterm2-config: config/iterm2-config
+      ~/.config/starship.toml: config/starship.toml
       ~/.nvmrc:
 - shell:
       - command: ./setup/homebrew.zsh

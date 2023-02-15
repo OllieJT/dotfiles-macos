@@ -1,5 +1,6 @@
 # This file only loads in the interactive shell, that means configuration defined here won't be avalible in other scripts.
 echo "Loaded .zshrc"
+nvm use
 
 
 # Set Variables
@@ -66,6 +67,10 @@ function lsf(){
 
 function kill_by_port(){
   lsof -i ":${1}" | awk 'NR > 1 {print $2}' | xargs kill -9
+}
+
+function dock_add_space(){
+  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock
 }
 
 # Enable ZSH Plugins
