@@ -32,3 +32,12 @@
 	autocorrect = 1
 [init]
 	templateDir = ~/.config/git/template/
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+
+[http]
+	postBuffer = 157286400
+[rerere]
+	enabled = true
