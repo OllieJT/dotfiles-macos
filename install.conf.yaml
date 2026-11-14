@@ -20,6 +20,8 @@
       ~/.config/starship.toml: config/starship.toml
       ~/.node-version: node-version
       ~/.local/bin/svgo: scripts/svgo
+      ~/.agents/skills/dotfiles: skills/dotfiles
+      ~/.claude/skills/dotfiles: skills/dotfiles
 - shell:
       - command: ./setup/homebrew.zsh
       - command: ./setup/dev-zsh.zsh

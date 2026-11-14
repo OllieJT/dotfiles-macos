@@ -86,6 +86,11 @@ directly into that checkout through `~/.agents/skills`. Commit and push personal
 skill sources before setting up another device. Set `directory` in the personal
 manifest if you use a different checkout location.
 
+Skills owned by this repository live in `skills/<name>/`. `install.conf.yaml`
+links each one into `~/.agents/skills` and `~/.claude/skills`; apply with
+`./install --only link`. `skills/dotfiles` teaches agents how to manage this
+repository.
+
 Preview skill restoration with:
 
 ```sh
