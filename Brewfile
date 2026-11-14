@@ -230,3 +230,6 @@ vscode "wallabyjs.console-ninja"
 vscode "wix.glean"
 vscode "yoavbls.pretty-ts-errors"
 vscode "yzhang.markdown-all-in-one"
+
+# Additional apps to install
+cask "ghostty"

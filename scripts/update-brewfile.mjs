@@ -24,15 +24,34 @@ export function filterBrewfile(contents, blacklist) {
 	}).join('\n');
 }
 
+export function parseRequiredCasks(contents) {
+	return new Set(contents.split(/\r?\n/).flatMap((line, index) => {
+		const cask = line.split('#', 1)[0].trim();
+		if (!cask) return [];
+		if (!/^[a-z0-9][a-z0-9@+._/-]*$/.test(cask)) {
+			throw new Error(`Invalid required cask on line ${index + 1}: ${cask}`);
+		}
+		return [cask];
+	}));
+}
+
+export function includeRequiredCasks(contents, requiredCasks) {
+	const recorded = new Set([...contents.matchAll(/^cask "([^"]+)"/gm)].map((match) => match[1]));
+	const missing = [...requiredCasks].filter((cask) => !recorded.has(cask));
+	if (!missing.length) return contents;
+	return `${contents.trimEnd()}\n\n# Additional apps to install\n${missing.map((cask) => `cask "${cask}"`).join('\n')}\n`;
+}
+
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
 	const root = new URL('../', import.meta.url);
 	const blacklist = parseBlacklist(readFileSync(new URL('config/homebrew/mas-blacklist.txt', root), 'utf8'));
+	const requiredCasks = parseRequiredCasks(readFileSync(new URL('config/homebrew/required-casks.txt', root), 'utf8'));
 	const snapshot = execFileSync('brew', ['bundle', 'dump', '--file=-'], {
 		cwd: fileURLToPath(root),
 		encoding: 'utf8',
 		maxBuffer: 16 * 1024 * 1024,
 		stdio: ['ignore', 'pipe', 'inherit'],
 	});
-	writeFileSync(new URL('Brewfile', root), filterBrewfile(snapshot, blacklist));
+	writeFileSync(new URL('Brewfile', root), includeRequiredCasks(filterBrewfile(snapshot, blacklist), requiredCasks));
 	console.log('Brewfile updated; App Store blacklist applied ✅');
 }

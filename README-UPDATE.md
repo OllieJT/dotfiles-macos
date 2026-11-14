@@ -26,3 +26,8 @@ discovered automatically, including newly installed apps.
 The blacklist only controls the generated Brewfile. It does not uninstall apps
 or stop their App Store updates. Run `bbd` after editing it; a direct
 `brew bundle dump` bypasses the blacklist.
+
+`config/homebrew/required-casks.txt` lists apps that should stay in Brewfile even
+when the installed app is not managed by Homebrew. `bbd` adds missing entries
+after dumping, while retaining any existing cask options. Ghostty is included
+here because it is already installed outside Homebrew.
