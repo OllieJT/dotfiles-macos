@@ -1,0 +1,5 @@
+{
+  "repository": "https://github.com/OllieJT/skills.git",
+  "directory": "~/Developer/skills",
+  "blacklist": [".claude"]
+}

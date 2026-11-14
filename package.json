@@ -7,7 +7,8 @@
   },
   "scripts": {
     "test": "node --test scripts/*.test.mjs",
-    "config:install": "node scripts/install-config.mjs"
+    "config:install": "node scripts/install-config.mjs",
+    "skills:install": "node scripts/install-skills.mjs"
   },
   "dependencies": {
     "skills": "1.8.1",
