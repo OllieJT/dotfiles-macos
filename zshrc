@@ -31,6 +31,9 @@ export EDITOR="code -w"
 # Tells npm you're using pnpm (some tools check this)
 export npm_config_user_agent="pnpm/v9.2.0"
 
+export TURBO_NO_UPDATE_NOTIFIER=true
+
+
 
 # ─────────────────────────────────────────────────────────────
 # Python
@@ -68,9 +71,10 @@ setopt globDots    # Include dotfiles in tab completion
 # Aliases
 # ─────────────────────────────────────────────────────────────
 
-alias ls="exa -laFh --git"       # Better ls with git status
+alias ls="eza -la --classify=always --header --git"       # Better ls with git status
 alias bbd="cd ~/.dotfiles && brew bundle dump --force --describe && echo 'Brewfile updated ✅'"
 alias pnpmup='echo "pnpm up -i --latest" && pnpm up -i --latest'
+alias fix_tower_ai='brew reinstall --cask --binaries codex && rehash && codex --version'
 alias trail="bat <<<${(F)path}"  # Pretty print $PATH, one entry per line
 
 # Custom scripts
@@ -163,6 +167,7 @@ eval "$(fnm use --install-if-missing)"  # Install missing version on terminal op
 # Claude Code sandbox with persistent auth
 alias claude-sandbox='docker sandbox run --template docker/sandbox-templates:claude-code -v ~/.claude:/root/.claude claude'
 alias ccs='claude-sandbox'
+alias ccyolo='claude --dangerously-skip-permissions'
 
 # ─────────────────────────────────────────────────────────────
 # Final PATH
@@ -172,3 +177,5 @@ export PATH="/opt/homebrew/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
 export GREPTILE_API_KEY="6mYixXDaNL1kK28AdNoXuKstf+aTYzUYhH5+A1hXLL0QRc8q"
+
+alias wavemic='/Users/olliejt/Documents/Codex/2026-11-10/whenever-i-connect-my-bluetooth-headphones/outputs/set-wave-xlr-input.swift'

@@ -1,4 +1,4 @@
-export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 HIST_STAMPS="dd/mm/yyyy"
 
 function exists() {
