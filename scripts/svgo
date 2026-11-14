@@ -1,0 +1,7 @@
+#!/bin/sh
+# Use the LTS installation even when a project selects a different Node version.
+# Homebrew's path also lets GUI callers use this wrapper without shell startup.
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+exec fnm exec --using lts-latest /bin/sh -c '
+  exec "$(dirname "$(command -v node)")/svgo" "$@"
+' svgo "$@"

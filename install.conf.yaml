@@ -18,7 +18,8 @@
       ~/.config/bat: config/bat
       ~/.config/iterm2-config: config/iterm2-config
       ~/.config/starship.toml: config/starship.toml
-      ~/.nvmrc:
+      ~/.node-version: node-version
+      ~/.local/bin/svgo: scripts/svgo
 - shell:
       - command: ./setup/homebrew.zsh
       - command: ./setup/dev-zsh.zsh

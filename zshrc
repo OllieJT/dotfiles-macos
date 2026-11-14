@@ -15,7 +15,7 @@ export DOTFILES="$HOME/.dotfiles"
 export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
 
 # SVG optimizer CLI path
-export SVGO_BIN='~/.asdf/installs/nodejs/20.11.1/lib/node_modules/svgo/bin/svgo'
+export SVGO_BIN="$HOME/.local/bin/svgo"
 
 # VS Code as default editor (-w waits for file to close)
 export EDITOR="code -w"
@@ -139,17 +139,14 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export PNPM_HOME="/Users/olliejt/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
-# asdf - multi-language version manager (Ruby, Python, etc.)
-. "$HOME/.asdf/asdf.sh"
-
 # bun - fast JS runtime & package manager
 [ -s "/Users/olliejt/.bun/_bun" ] && source "/Users/olliejt/.bun/_bun"  # completions
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-# fnm - fast Node version manager (replaces nvm)
+# fnm - fast Node version manager
 eval "$(fnm env --use-on-cd --shell zsh)"  # Setup fnm + auto-switch Node per .node-version
-eval "$(fnm use --install-if-missing)"  # Install missing version on terminal open
+fnm use --install-if-missing  # Install missing version on terminal open
 
 
 
