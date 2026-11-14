@@ -68,7 +68,7 @@ It is safe to run again; finished steps are skipped or repeated harmlessly.
 - Sign in to GitHub: `gh auth login`.
 - Sign in to the coding agents, then run `npm run config:install` again so T3
   model selections apply.
-- Install Spotify and [Postgres.app](https://postgresapp.com/).
+- Install Spotify.
 - Disable the Spotlight keyboard shortcut; it conflicts with Raycast.
 - Set app shortcuts:
 
