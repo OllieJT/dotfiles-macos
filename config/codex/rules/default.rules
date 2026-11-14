@@ -1,0 +1,4 @@
+prefix_rule(pattern=["bun", "install"], decision="allow")
+prefix_rule(pattern=["bunx", "convex", "codegen"], decision="allow")
+prefix_rule(pattern=["git", "add"], decision="allow")
+prefix_rule(pattern=["git", "commit", "-m"], decision="allow")

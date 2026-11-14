@@ -4,3 +4,5 @@ Brewfile.lock.json
 
 # GitHub CLI stores local authentication credentials here.
 /config/gh/hosts.yml
+
+node_modules/

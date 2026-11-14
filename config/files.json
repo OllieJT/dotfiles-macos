@@ -1,0 +1,101 @@
+[
+  {
+    "target": ".codex/AGENTS.md",
+    "source": "config/codex/AGENTS.md"
+  },
+  {
+    "target": ".codex/keybindings.json",
+    "source": "config/codex/keybindings.json"
+  },
+  {
+    "target": ".codex/config.toml",
+    "source": "config/codex/config.toml",
+    "format": "toml"
+  },
+  {
+    "target": ".codex/rules/default.rules",
+    "source": "config/codex/rules/default.rules",
+    "format": "lines"
+  },
+  {
+    "target": ".claude/CLAUDE.md",
+    "source": "config/claude/CLAUDE.md"
+  },
+  {
+    "target": ".claude/settings.json",
+    "source": "config/claude/settings.json",
+    "format": "json"
+  },
+  {
+    "target": ".claude/hooks/block-dangerous-git.sh",
+    "source": "config/claude/hooks/block-dangerous-git.sh"
+  },
+  {
+    "target": ".claude/statusline-wrapper.sh",
+    "source": "config/claude/statusline-wrapper.sh"
+  },
+  {
+    "target": ".claude/statusline-command.sh",
+    "source": "config/claude/statusline-command.sh"
+  },
+  {
+    "target": ".claude/commands/baseline-ui.md",
+    "source": "config/claude/commands/baseline-ui.md"
+  },
+  {
+    "target": ".claude/commands/fixing-accessibility.md",
+    "source": "config/claude/commands/fixing-accessibility.md"
+  },
+  {
+    "target": ".claude/commands/fixing-metadata.md",
+    "source": "config/claude/commands/fixing-metadata.md"
+  },
+  {
+    "target": ".claude/commands/fixing-motion-performance.md",
+    "source": "config/claude/commands/fixing-motion-performance.md"
+  },
+  {
+    "target": ".claude/commands/web-interface-guidelines.md",
+    "source": "config/claude/commands/web-interface-guidelines.md"
+  },
+  {
+    "target": ".t3/userdata/keybindings.json",
+    "source": "config/t3/keybindings.json"
+  },
+  {
+    "target": ".t3/userdata/client-settings.json",
+    "source": "config/t3/client-settings.json",
+    "format": "json"
+  },
+  {
+    "target": ".t3/userdata/settings.json",
+    "source": "config/t3/settings.json",
+    "format": "json",
+    "requiresLocal": {
+      "defaultModelSelection": "instanceId",
+      "fallbackModelSelection": "instanceId",
+      "textGenerationModelSelection": "instanceId"
+    }
+  },
+  {
+    "target": ".config/ccstatusline/settings.json",
+    "source": "config/ccstatusline/settings.json"
+  },
+  {
+    "target": ".config/ghostty/config",
+    "source": "config/ghostty/config"
+  },
+  {
+    "target": ".bunfig.toml",
+    "source": "config/node/bunfig.toml"
+  },
+  {
+    "target": ".npmrc",
+    "source": "config/node/npmrc",
+    "format": "npmrc"
+  },
+  {
+    "target": ".agents/.skill-lock.json",
+    "source": "config/skills/skill-lock.json"
+  }
+]

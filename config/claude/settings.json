@@ -1,0 +1,58 @@
+{
+  "attribution": {
+    "commit": "Co-Authored-By: Claude <noreply@anthropic.com>",
+    "pr": ""
+  },
+  "permissions": {
+    "allow": [
+      "Bash(starship config:*)",
+      "Bash(cat:*)",
+      "Bash(echo:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(tree:*)",
+      "Bash(npm ls:*)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(npx tsc:*)",
+      "Bash(bun run check:*)",
+      "Bash(bun run format:*)",
+      "Bash(bun run test:*)",
+      "WebFetch(domain:www.convex.dev)",
+      "Skill(repp-system)"
+    ],
+    "defaultMode": "auto"
+  },
+  "model": "sonnet",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.claude/hooks/block-dangerous-git.sh"
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash ~/.claude/statusline-wrapper.sh"
+  },
+  "enabledPlugins": {
+    "sentry@claude-plugins-official": false,
+    "vercel-plugin@vercel-vercel-plugin": true
+  },
+  "spinnerTipsEnabled": false,
+  "effortLevel": "high",
+  "promptSuggestionEnabled": false,
+  "tui": "fullscreen",
+  "skipDangerousModePermissionPrompt": true,
+  "preferredNotifChannel": "ghostty",
+  "autoCompactEnabled": false,
+  "agentPushNotifEnabled": true,
+  "enableWorkflows": true,
+  "outputStyle": "Concise"
+}

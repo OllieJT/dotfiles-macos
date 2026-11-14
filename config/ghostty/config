@@ -1,0 +1,7 @@
+theme = Molokai
+macos-icon = custom-style
+macos-icon-frame = plastic
+font-family = Fira Code
+window-inherit-working-directory = true
+working-directory = inherit
+keybind = shift+enter=text:\x1b\r

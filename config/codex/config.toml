@@ -1,0 +1,114 @@
+personality = "pragmatic"
+model = "gpt-6.1-sol"
+model_reasoning_effort = "medium"
+approval_policy = "on-request"
+approvals_reviewer = "user"
+sandbox_mode = "danger-full-access"
+service_tier = "default"
+
+[plugins."github@openai-curated"]
+enabled = true
+
+[plugins."figma@openai-curated"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = false
+
+[plugins."frontend-design@claude-plugins-official"]
+enabled = false
+
+[plugins."coderabbit@openai-curated"]
+enabled = true
+
+[plugins."vercel@openai-curated"]
+enabled = true
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = true
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[plugins."visualize@openai-bundled"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = true
+
+[plugins."unified-computer-use@openai-bundled"]
+enabled = true
+
+[features]
+js_repl = false
+memories = false
+chronicle = false
+
+[tui]
+status_line = [ "model-with-reasoning", "current-dir", "git-branch", "context-used" ]
+
+[desktop]
+appearanceLightCodeThemeId = "vercel"
+appearanceDarkCodeThemeId = "github"
+usePointerCursors = false
+mac-menu-bar-enabled = false
+preventSleepWhileRunning = true
+keepRemoteControlAwakeWhilePluggedIn = true
+git-branch-prefix = "OllieJT/"
+git-pull-request-merge-method = "squash"
+git-show-sidebar-pr-icons = true
+selected-avatar-id = "codex"
+show-context-window-usage = true
+dock-icon-preference = "app-default"
+enabled-reasoning-efforts = [ "low", "medium", "high", "xhigh" ]
+conversationDetailMode = "STEPS_COMMANDS"
+worktree-keep-count = 5
+avatar-overlay-pet-visible = true
+avatar-overlay-mascot-width-px = 80
+worktree-upstream-refresh-mode = "best-effort"
+worktree-confirm-before-delete = false
+migratedFollowUpQueueToSteer = true
+
+[desktop.appearanceLightChromeTheme]
+accent = "#006aff"
+contrast = 40
+ink = "#171717"
+opaqueWindows = true
+surface = "#ffffff"
+
+[desktop.appearanceLightChromeTheme.fonts]
+code = "\"Geist Mono\", ui-monospace, \"SFMono-Regular\""
+ui = "Geist, Inter"
+
+[desktop.appearanceLightChromeTheme.semanticColors]
+diffAdded = "#28A948"
+diffRemoved = "#EB001D"
+skill = "#A100F8"
+
+[desktop.appearanceDarkChromeTheme]
+accent = "#1f6feb"
+contrast = 50
+ink = "#e6edf3"
+opaqueWindows = true
+surface = "#0d1117"
+
+[desktop.appearanceDarkChromeTheme.fonts]
+code = "\"Geist Mono\", ui-monospace, \"SFMono-Regular\""
+ui = "Geist, Inter"
+
+[desktop.appearanceDarkChromeTheme.semanticColors]
+diffAdded = "#3fb950"
+diffRemoved = "#f85149"
+skill = "#bc8cff"

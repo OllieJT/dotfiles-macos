@@ -1,0 +1,16 @@
+{
+  "name": "dotfiles-macos",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test scripts/*.test.mjs",
+    "config:install": "node scripts/install-config.mjs"
+  },
+  "dependencies": {
+    "skills": "1.8.1",
+    "smol-toml": "1.9.1"
+  }
+}
