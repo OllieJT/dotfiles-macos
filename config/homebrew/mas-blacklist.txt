@@ -1,0 +1,10 @@
+# App Store IDs excluded when refreshing Brewfile. Other installed apps are included.
+# This list does not uninstall apps or prevent App Store updates.
+803453959   # Slack
+1384080005  # Tweetbot
+1521082061  # Alfread
+6745871298  # Auxy
+1541304901  # Polypane-helper
+1631624924  # Final Cut Pro
+1358823008  # Flighty
+1091675654  # Shapr3D

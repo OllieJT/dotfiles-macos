@@ -16,7 +16,6 @@
       ~/.config/gh: config/gh
       ~/.config/git: config/git
       ~/.config/bat: config/bat
-      ~/.config/alacritty: config/alacritty
       ~/.config/iterm2-config: config/iterm2-config
       ~/.config/starship.toml: config/starship.toml
       ~/.nvmrc:

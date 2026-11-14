@@ -6,10 +6,6 @@ echo "Loaded .zshrc"
 # Environment Variables
 # ─────────────────────────────────────────────────────────────
 
-# Alacritty terminal - adds to PATH so you can run `alacritty` from CLI
-export ALACRITTY="/Applications/Alacritty.app/Contents/MacOS/alacritty"
-export PATH="$ALACRITTY:$PATH"
-
 # bat - a better `cat` with syntax highlighting
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"  # Use bat for man pages
 export NULLCMD=bat  # Empty redirects (e.g., `> file`) use bat instead of cat
@@ -20,10 +16,6 @@ export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
 
 # SVG optimizer CLI path
 export SVGO_BIN='~/.asdf/installs/nodejs/20.11.1/lib/node_modules/svgo/bin/svgo'
-
-# Deno JS runtime
-export DENO_INSTALL="/Users/olliejt/.deno/bin"
-export PATH="$DENO_INSTALL:$PATH"
 
 # VS Code as default editor (-w waits for file to close)
 export EDITOR="code -w"
@@ -72,7 +64,7 @@ setopt globDots    # Include dotfiles in tab completion
 # ─────────────────────────────────────────────────────────────
 
 alias ls="eza -la --classify=always --header --git"       # Better ls with git status
-alias bbd="cd ~/.dotfiles && brew bundle dump --force --describe && echo 'Brewfile updated ✅'"
+alias bbd='node "$HOME/.dotfiles/scripts/update-brewfile.mjs"'
 alias pnpmup='echo "pnpm up -i --latest" && pnpm up -i --latest'
 alias fix_tower_ai='brew reinstall --cask --binaries codex && rehash && codex --version'
 alias trail="bat <<<${(F)path}"  # Pretty print $PATH, one entry per line
@@ -176,6 +168,5 @@ alias ccyolo='claude --dangerously-skip-permissions'
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
-export GREPTILE_API_KEY="6mYixXDaNL1kK28AdNoXuKstf+aTYzUYhH5+A1hXLL0QRc8q"
 
 alias wavemic='/Users/olliejt/Documents/Codex/2026-11-10/whenever-i-connect-my-bluetooth-headphones/outputs/set-wave-xlr-input.swift'

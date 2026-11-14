@@ -50,7 +50,6 @@ for app in "Activity Monitor" \
 	"SystemUIServer" \
 	"Terminal" \
 	"Transmission" \
-	"Tweetbot" \
 	"Twitter" \
 	"iCal"; do
 	killall "${app}" &> /dev/null

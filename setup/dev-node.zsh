@@ -20,7 +20,6 @@ corepack disable
 
 echo "\n  [Dev - Node Install]: 🚧 Installing Global Packages\n"
 npm install --global @sanity/cli
-npm install --global netlify-cli
 npm install --global vercel
 
 echo "\n  [Dev - Node Install]: 🟢 Global packages installed\n"
