@@ -72,6 +72,6 @@ Plain sources and dotbot-linked files are live through their symlinks the moment
 ## Packages and skills
 
 - `Brewfile` is generated. Install or uninstall with `brew` or `mas`, then regenerate with `node scripts/update-brewfile.mjs` (the user's `bbd` alias). `config/homebrew/mas-blacklist.txt` excludes App Store apps; `config/homebrew/required-casks.txt` retains casks installed outside Homebrew.
-- Skills have three homes. skills.sh skills: add with `npx skills add <source> --global`, which updates the linked `config/skills/skill-lock.json`. Personal skills: folders in `~/Developer/skills` (its own Git repo, configured in `config/skills/personal.json`), discovered by `npm run skills:install`. Repo-owned skills: `skills/<name>/` here, linked by dotbot into both `~/.agents/skills/` and `~/.claude/skills/`; this skill is one.
+- Skills have three homes. skills.sh skills: add with `npx skills add <source> --global`, which updates the linked `config/skills/skill-lock.json`. Personal skills: folders in `~/Developer/github.com/OllieJT/skills` (its own Git repo, configured in `config/skills/personal.json`), discovered by `npm run skills:install`. Repo-owned skills: `skills/<name>/` here, linked by dotbot into both `~/.agents/skills/` and `~/.claude/skills/`; this skill is one.
 
 `README-UPDATE.md` documents the Brewfile lists, mixed settings, and skill restoration in full.

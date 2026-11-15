@@ -61,7 +61,7 @@ It is safe to run again; finished steps are skipped or repeated harmlessly.
 7. Links agent and app settings ([config/files.json](config/files.json)).
    Replaced originals are kept in `~/.local/state/dotfiles/backups`.
 8. Restores agent skills and clones my personal skills into
-   `~/Developer/skills`.
+   `~/Developer/github.com/OllieJT/skills`.
 
 ### Manual steps
 
