@@ -27,10 +27,6 @@
     "format": "json"
   },
   {
-    "target": ".claude/hooks/block-dangerous-git.sh",
-    "source": "config/claude/hooks/block-dangerous-git.sh"
-  },
-  {
     "target": ".claude/statusline-wrapper.sh",
     "source": "config/claude/statusline-wrapper.sh"
   },
