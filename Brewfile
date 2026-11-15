@@ -230,6 +230,7 @@ vscode "wallabyjs.console-ninja"
 vscode "wix.glean"
 vscode "yoavbls.pretty-ts-errors"
 vscode "yzhang.markdown-all-in-one"
+npm "corepack"
 
 # Additional apps to install
 cask "ghostty"
