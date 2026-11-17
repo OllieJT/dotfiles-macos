@@ -33,5 +33,15 @@
   "branchNamingMode": "semantic",
   "sourceControlWritingStyle": {
     "mode": "conventional_commits"
-  }
+  },
+  "defaultProjectScripts": [
+    {
+      "id": "worktree-env",
+      "name": "Copy env files",
+      "command": "\"$HOME/.local/bin/worktree-env\"",
+      "icon": "configure",
+      "runOnWorktreeCreate": true,
+      "async": false
+    }
+  ]
 }

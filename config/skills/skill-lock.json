@@ -395,6 +395,24 @@
       "skillFolderHash": "a0dfdc3562686d920900973b50289b36e2f7eafe",
       "installedAt": "2026-10-28T17:56:56.186Z",
       "updatedAt": "2026-10-28T17:56:56.186Z"
+    },
+    "full-stop": {
+      "source": "t3dotgg/tstack",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/t3dotgg/tstack.git",
+      "skillPath": "skills/full-stop/SKILL.md",
+      "skillFolderHash": "16f14dba1ab91a1f7fbcce387b6b96cdd15fc4f5",
+      "installedAt": "2026-11-17T03:45:26.884Z",
+      "updatedAt": "2026-11-17T03:45:26.884Z"
+    },
+    "leaving-pr-comments": {
+      "source": "t3dotgg/tstack",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/t3dotgg/tstack.git",
+      "skillPath": "skills/leaving-pr-comments/SKILL.md",
+      "skillFolderHash": "3905d758fb70b4e660038456f86ac02343a3dedf",
+      "installedAt": "2026-11-17T03:45:26.886Z",
+      "updatedAt": "2026-11-17T03:45:26.886Z"
     }
   },
   "lastSelectedAgents": [

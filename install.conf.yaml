@@ -20,6 +20,7 @@
       ~/.config/starship.toml: config/starship.toml
       ~/.node-version: node-version
       ~/.local/bin/svgo: scripts/svgo
+      ~/.local/bin/worktree-env: scripts/worktree-env
       ~/.agents/skills/dotfiles: skills/dotfiles
       ~/.claude/skills/dotfiles: skills/dotfiles
 - shell:

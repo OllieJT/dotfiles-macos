@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+# Copy gitignored env files and Vercel project links from the main checkout
+# into the current git worktree. Never overwrites unless --force. Safe to re-run.
+set -euo pipefail
+
+force=0
+case "${1:-}" in
+	--force | -f) force=1 ;;
+	"") ;;
+	*)
+		echo "usage: worktree-env [--force]" >&2
+		exit 2
+		;;
+esac
+
+root="$(git rev-parse --show-toplevel)"
+main="$(dirname "$(git rev-parse --path-format=absolute --git-common-dir)")"
+
+if [[ "$root" == "$main" ]]; then
+	echo "worktree-env: in main checkout, nothing to copy"
+	exit 0
+fi
+
+copied=0
+while IFS= read -r -d '' rel; do
+	# Nested worktrees and other embedded repos are listed as directories.
+	[[ -f "$main/$rel" ]] || continue
+	# Tracked on this branch (e.g. .env.example variants): leave to git.
+	if git -C "$root" ls-files --error-unmatch -- "$rel" >/dev/null 2>&1; then
+		continue
+	fi
+	if [[ -e "$root/$rel" && $force -eq 0 ]]; then
+		echo "keep   $rel"
+		continue
+	fi
+	mkdir -p "$(dirname "$root/$rel")"
+	cp -p "$main/$rel" "$root/$rel"
+	echo "copied $rel"
+	copied=$((copied + 1))
+done < <(
+	git -C "$main" ls-files --others --ignored --exclude-standard -z -- \
+		':(glob)**/.env*' \
+		':(glob)**/.vercel/project.json' \
+		':(glob)**/.vercel/repo.json' \
+		':(exclude,glob)**/node_modules/**' \
+		':(exclude,glob)**/.vercel/output/**' \
+		':(exclude,glob).claude/worktrees/**'
+)
+
+echo "worktree-env: $copied file(s) copied from $main"
