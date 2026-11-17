@@ -2,7 +2,6 @@ tap "1password/tap"
 tap "assimelha/tap"
 tap "gastownhall/beads", "https://github.com/gastownhall/homebrew-beads.git"
 tap "homebrew/bundle"
-tap "homebrew/services"
 tap "stripe/stripe-cli"
 tap "supabase/tap"
 tap "tursodatabase/tap"
@@ -88,8 +87,6 @@ brew "yq"
 brew "yt-dlp"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Password manager that keeps all passwords secure behind one password
-cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
 # Command-line tools for building and debugging Android apps
@@ -131,13 +128,11 @@ mas "Amphetamine", id: 937984704
 mas "Brother iPrint&Scan", id: 1193539993
 mas "Contrast", id: 1254981365
 mas "Dropover", id: 1355679052
-mas "DuckDuckGo Privacy for Safari", id: 1482920575
 mas "Eagle for Safari", id: 1526651672
 mas "GIF Brewery 3", id: 1081413713
 mas "Gifski", id: 1351639930
 mas "Hand Mirror", id: 1502839586
 mas "Icon Preview", id: 6480373509
-mas "Instapaper Save", id: 1481302432
 mas "Keynote", id: 409183694
 mas "Keystroke Pro", id: 1572206224
 mas "Reeder", id: 1529448980
