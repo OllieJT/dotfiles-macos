@@ -91,16 +91,6 @@
       "installedAt": "2026-03-30T14:50:33.450Z",
       "updatedAt": "2026-07-17T22:07:47.529Z"
     },
-    "grill-me": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/productivity/grill-me/SKILL.md",
-      "skillFolderHash": "3df14e2d3a89459bf300614be9247e3ce74798f8",
-      "pluginName": "mattpocock-skills",
-      "installedAt": "2026-04-30T18:10:57.594Z",
-      "updatedAt": "2026-10-28T17:56:56.179Z"
-    },
     "grill-with-docs": {
       "source": "mattpocock/skills",
       "sourceType": "github",
@@ -250,15 +240,6 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-07-17T22:21:51.506Z",
       "updatedAt": "2026-10-28T17:56:56.185Z"
-    },
-    "ask-matt": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/engineering/ask-matt/SKILL.md",
-      "skillFolderHash": "d6a0d9bf3cdc78cbfcbd6466ac5fd3deffb52877",
-      "installedAt": "2026-07-31T11:14:28.298Z",
-      "updatedAt": "2026-10-28T17:54:07.484Z"
     },
     "codebase-design": {
       "source": "mattpocock/skills",
