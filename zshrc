@@ -167,3 +167,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 
 alias wavemic='/Users/olliejt/Documents/Codex/2026-11-10/whenever-i-connect-my-bluetooth-headphones/outputs/set-wave-xlr-input.swift'
+
+
+# Added by Antigravity CLI installer
+export PATH="/Users/olliejt/.local/bin:$PATH"

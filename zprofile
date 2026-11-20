@@ -14,3 +14,7 @@ if [[ -d "/Applications/Android Studio.app/Contents/jbr/Contents/Home" ]]; then
   export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
   export PATH="$JAVA_HOME/bin:$PATH"
 fi
+
+
+# Added by Antigravity CLI installer
+export PATH="/Users/olliejt/.local/bin:$PATH"
