@@ -484,6 +484,16 @@
       "skillFolderHash": "7f16ad41a115a9e3879a774374908874d6f48b2a",
       "installedAt": "2026-11-19T14:30:26.590Z",
       "updatedAt": "2026-11-19T14:30:26.590Z"
+    },
+    "plotter": {
+      "source": "pasqualevitiello/plotter",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pasqualevitiello/plotter.git",
+      "commit": "ee5166865068693bcb8cc576c823291edb85ebd9",
+      "skillPath": "skills/plotter/SKILL.md",
+      "skillFolderHash": "ad515b19f66d5ed9080ff9674712e149dd5dd0ce",
+      "installedAt": "2026-11-21T04:27:19.816Z",
+      "updatedAt": "2026-11-21T04:27:19.816Z"
     }
   },
   "lastSelectedAgents": [
