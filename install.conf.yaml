@@ -23,6 +23,8 @@
       ~/.local/bin/worktree-env: scripts/worktree-env
       ~/.agents/skills/dotfiles: skills/dotfiles
       ~/.claude/skills/dotfiles: skills/dotfiles
+      ~/.agents/skills/resync-dotfiles: skills/resync-dotfiles
+      ~/.claude/skills/resync-dotfiles: skills/resync-dotfiles
 - shell:
       - command: ./setup/homebrew.zsh
       - command: ./setup/dev-zsh.zsh
