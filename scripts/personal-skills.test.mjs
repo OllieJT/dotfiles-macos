@@ -3,7 +3,7 @@ import test from 'node:test';
 import { existsSync, lstatSync, mkdirSync, mkdtempSync, rmSync, symlinkSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { discoverPersonalSkills, removeBlacklistedLinks, validateBlacklist } from './personal-skills.mjs';
+import { discoverPersonalSkills, removeBlacklistedLinks, syncPlan, unsharedSkills, validateBlacklist } from './personal-skills.mjs';
 
 function fixture(run) {
 	const root = mkdtempSync(join(tmpdir(), 'dotfiles-personal-skills-'));
@@ -60,3 +60,18 @@ test('blacklisting preserves unrelated links, independent copies and remote cano
 	assert.ok(lstatSync(join(agent, 'remote')).isSymbolicLink());
 	assert.ok(lstatSync(join(canonical, 'unrelated')).isSymbolicLink());
 }));
+
+test('sync fast-forwards only a tracking branch that is strictly behind', () => {
+	const base = { branch: 'main', upstream: 'origin/main', ahead: 0, behind: 0 };
+	assert.deepEqual(syncPlan(base), { action: 'none' });
+	assert.deepEqual(syncPlan({ ...base, behind: 2 }), { action: 'pull' });
+	assert.deepEqual(syncPlan({ ...base, ahead: 1 }), { action: 'none' });
+	assert.equal(syncPlan({ ...base, ahead: 1, behind: 2 }).action, 'skip');
+	assert.equal(syncPlan({ ...base, upstream: '' }).action, 'skip');
+	assert.equal(syncPlan({ ...base, branch: '' }).action, 'skip');
+});
+
+test('unshared skills are those with uncommitted or untracked files, including rename targets', () => {
+	const porcelain = ['?? drafted/', ' M edited/SKILL.md', 'R  renamed/SKILL.md', 'old/SKILL.md', ' M README.md', '?? not-a-skill/x', ''].join('\0');
+	assert.deepEqual(unsharedSkills(porcelain, ['clean', 'drafted', 'edited', 'old', 'renamed']), ['drafted', 'edited', 'renamed']);
+});

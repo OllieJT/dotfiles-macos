@@ -81,9 +81,12 @@ Names shared with the skills.sh lock must be resolved explicitly, so one source
 does not overwrite the other.
 
 The installer clones your repository when its checkout is missing, and
-otherwise keeps the checkout and uncommitted changes intact. Skills link
-directly into that checkout through `~/.agents/skills`. Commit and push personal
-skill sources before setting up another device. Set `directory` in the personal
+otherwise fetches and fast-forwards it. It skips the pull, with a warning, when
+the checkout is detached, has no upstream, has diverged, or has local changes
+the pull would overwrite; uncommitted changes are never discarded. Skills link
+directly into that checkout through `~/.agents/skills`. The installer warns
+about skills with uncommitted changes and about unpushed commits: those exist
+only on this device until pushed. Set `directory` in the personal
 manifest if you use a different checkout location.
 
 Skills owned by this repository live in `skills/<name>/`. `install.conf.yaml`

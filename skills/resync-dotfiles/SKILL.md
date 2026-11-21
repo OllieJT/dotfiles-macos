@@ -24,7 +24,7 @@ Done when `git status -sb` shows `main` level with `origin/main`.
 
 ## 3. Apply
 
-List what arrived with `git diff --name-only <old HEAD> HEAD`. Run every apply command the `dotfiles` table maps those paths to, in table order (`npm ci --ignore-scripts` first). Changed `setup/*` scripts and bare `./install` belong to the user: name them in the report.
+List what arrived with `git diff --name-only <old HEAD> HEAD`. Run every apply command the `dotfiles` table maps those paths to, in table order (`npm ci --ignore-scripts` first), and always `npm run skills:install`: it pulls the personal skills repo, which changes outside `~/.dotfiles`. Changed `setup/*` scripts and bare `./install` belong to the user: name them in the report.
 
 Fix each failure at its cause, then rerun the command. A fix that needs a repo edit stays uncommitted and goes in the report. A failure needing the user (sudo, sign-in, network) goes in the report verbatim.
 
@@ -39,7 +39,7 @@ Done when the stashed changes sit in the working tree and the `resync-dotfiles` 
 ## 5. Report
 
 - Commits pulled (`git log --oneline <old HEAD>..HEAD`) and commands run.
-- Every failure left for the user, with its error.
+- Every failure left for the user, with its error, and every `skills:install` warning (an unpulled personal skills checkout, or personal skills not yet pushed).
 - Every stashed file (step 1's list), with its `git diff --stat` or untracked status. Plain sources are live files, so many are drift written by apps. For each, recommend **commit** (a real preference change, saved per the `dotfiles` skill's **Save to GitHub**) or **prune** (`git restore <file>`, or `rm` for untracked noise), then wait for the user's call.
 
 Done when the user has every pulled change, every outstanding failure, and a commit-or-prune recommendation for every stashed file.

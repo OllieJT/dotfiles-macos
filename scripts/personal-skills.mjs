@@ -45,3 +45,26 @@ export function removeBlacklistedLinks(checkout, blacklist, destinations, canoni
 	}
 	return removed;
 }
+
+// Fast-forward only: a checkout that is detached, untracked or diverged keeps its local history.
+export function syncPlan({ branch, upstream, ahead, behind }) {
+	if (!branch) return { action: 'skip', reason: 'detached HEAD' };
+	if (!upstream) return { action: 'skip', reason: `${branch} has no upstream` };
+	if (ahead && behind) return { action: 'skip', reason: `${branch} has diverged from ${upstream}` };
+	return { action: behind ? 'pull' : 'none' };
+}
+
+// Skills with uncommitted or untracked files, from `git status --porcelain=v1 -z`.
+export function unsharedSkills(porcelain, skills) {
+	const names = new Set(skills);
+	const found = new Set();
+	const entries = porcelain.split('\0');
+	for (let i = 0; i < entries.length; i++) {
+		const entry = entries[i];
+		if (!entry) continue;
+		if (/^[RC]/.test(entry)) i++; // Renames and copies carry their source path as the next entry.
+		const name = entry.slice(3).split('/')[0];
+		if (names.has(name)) found.add(name);
+	}
+	return [...found].sort();
+}
